@@ -1,0 +1,39 @@
+﻿=== DDU(Factory Reset) 직전 기준선  2026-09-19 18:39:43 ===
+
+--- 드라이버 ---
+
+Name                    DriverVersion   DriverDate           
+----                    -------------   ----------           
+AMD Radeon RX 9070 XT   32.0.31041.1004 2026-08-17 오전 9:00:00
+AMD Radeon(TM) Graphics 32.0.21045.5002 2026-08-17 오전 9:00:00
+
+
+
+--- 모니터 devnode (유령 포함) ---
+  OK       Present=True  DISPLAY\BBC0104\7&16B8DDB4&0&UID265  Generic Monitor (HDP-V104)
+  Unknown  Present=False DISPLAY\DEFAULT_MONITOR\7&16B8DDB4&0&UID256  Generic Monitor
+  OK       Present=True  DISPLAY\SAM79DF\7&16B8DDB4&0&UID260  Generic Monitor (Odyssey G50F)
+  OK       Present=True  DISPLAY\SAM7B0C\7&16B8DDB4&0&UID256  Generic Monitor (Odyssey G80SH)
+
+--- 1010 누계 (보존 전체: 08-08 이후) ---
+  DISPLAY 1010 총 : 4700
+    SAM7B0C            3116
+    Default_Monitor    1304
+    SAM79DF             263
+    LHC2701              14
+    SAM7B0B               2
+    SAM7B11               1
+  마지막 SAM7B0C : 09/19/2026 18:18:17
+
+--- 확보된 ETW 자료 ---
+  g80sh-baseline-0919.etl               3,014,656 bytes
+  g80sh-dxg-0919-1745-1.etl            13,238,272 bytes
+  g80sh-dxg-0919-1818-2.etl             3,932,160 bytes
+
+--- 복구 수단 ---
+  복원 지점 #24 'G80SH DDU 전 기준선'  2026-09-19 18:28:12
+  WinRE Enabled (harddisk0/partition4)
+  DriverStore: oem50.inf = 32.0.31041.1004 (9070 XT), oem4.inf = 32.0.21045.5002 (iGPU)
+  iGPU 출력 / G50F 보조모니터 / 크롬 원격(chromoting Running) / 더미동글 BBC0104
+
+  잔재 상세는 devnode-survey.txt 참조

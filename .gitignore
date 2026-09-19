@@ -1,0 +1,16 @@
+# 자체 저장소를 가진 하위 프로젝트 (각각 GitHub 에 따로 올린다)
+RemoteDisplaySwitch/
+CaseDisplay/
+
+# 보관 폴더 — 시리얼 포함, 올리지 않음 (README 참조)
+_archive/
+
+# 활성 ETW 순환 버퍼 — 계속 덮어써지므로 추적하지 않는다
+_evidence/g80sh-live.etl
+
+# 파이썬 캐시
+__pycache__/
+*.pyc
+
+# 임시
+*.tmp

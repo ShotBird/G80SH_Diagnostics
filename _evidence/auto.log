@@ -1,0 +1,77 @@
+﻿2026-09-19 16:40:36 [hook] registering 'G80SH ETW Auto'
+2026-09-19 16:41:07 [hook] hook begin (whoami=hans\hans1)
+2026-09-19 16:41:07 [hook] schtasks create rc=0 : SUCCESS: The scheduled task "G80SH ETW Auto" has successfully been created.
+2026-09-19 16:41:08 [hook] schtasks query rc=0
+2026-09-19 16:41:08 [hook] schtasks run rc=0 : SUCCESS: Attempted to run the scheduled task "G80SH ETW Auto".
+2026-09-19 16:41:08 [hook] hook end
+2026-09-19 16:41:08 auto armed (captures=6 cool=40m)
+2026-09-19 16:54:46 [hook] restart for rev.2
+2026-09-19 16:54:48 [hook] run rc=0 : SUCCESS: Attempted to run the scheduled task "G80SH ETW Auto".
+2026-09-19 16:54:48 auto rev.2 armed (captures=6 cool=30m post=150s)
+2026-09-19 16:54:48 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-19 16:54:54 [hook] rev.2 running pid 18612
+2026-09-19 16:54:54 [hook] logman: G80SH                                   Trace                         Running 
+2026-09-19 17:05:08 [hook] VIDEOIDLE restored -> 현재 AC 전원 설정 색인: 0x00000384
+2026-09-19 17:05:10 [hook] run rc=0 : SUCCESS: Attempted to run the scheduled task "G80SH ETW Auto".
+2026-09-19 17:05:10 auto rev.2 armed (captures=0 cool=30m post=150s)
+2026-09-19 17:05:10 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-19 17:05:16 [hook] running pid 17628
+2026-09-19 17:05:16 [hook] logman: G80SH                                   Trace                         Running 
+2026-09-19 17:11:26 [hook] === 재부팅 대비 ===
+2026-09-19 17:11:30 [hook] baseline 보존 -> g80sh-baseline-0919.etl (3,014,656 bytes)
+2026-09-19 17:11:31 [hook] 설정: ExecLimit=PT0S Batt=False/False Restart=5 StartWhenAvail=True StopOnIdle=False
+2026-09-19 17:11:31 auto rev.2 armed (captures=0 cool=30m post=150s)
+2026-09-19 17:11:31 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-19 17:11:37 [hook] running pid 16556
+2026-09-19 17:11:37 [hook] logman: G80SH                                   Trace                         Running
+2026-09-19 17:12:01 [decode] decoded 19,003 events from g80sh-baseline-0919.etl
+2026-09-19 17:12:01 [decode] kept 365
+2026-09-19 17:12:02 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-baseline-0919.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-baseline-0919.csv
+2026-09-19 17:18:38 auto rev.2 armed (captures=0 cool=30m post=150s)
+2026-09-19 17:18:38 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-19 17:45:41 TRIGGER -> +150s 더 담고 덤프 (#1 tag=0919-1745-1)
+2026-09-19 17:48:11 etl kept g80sh-dxg-0919-1745-1.etl (13,238,272 bytes)
+2026-09-19 17:48:32 [decode] decoded 115,296 events from g80sh-dxg-0919-1745-1.etl
+2026-09-19 17:48:33 [decode] kept 1,631
+2026-09-19 17:48:36 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0919-1745-1.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0919-1745-1.csv
+2026-09-19 17:48:36 cooling 30m
+2026-09-19 18:18:36 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-19 18:18:51 TRIGGER -> +150s 더 담고 덤프 (#2 tag=0919-1818-2)
+2026-09-19 18:21:21 etl kept g80sh-dxg-0919-1818-2.etl (3,932,160 bytes)
+2026-09-19 18:21:26 [decode] decoded 28,605 events from g80sh-dxg-0919-1818-2.etl
+2026-09-19 18:21:26 [decode] kept 313
+2026-09-19 18:21:27 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0919-1818-2.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0919-1818-2.csv
+2026-09-19 18:21:27 cooling 30m
+2026-09-19 18:38:55 [hook] === DDU(Factory Reset) 준비: 감시자 정지 ===
+2026-09-19 18:38:57 [hook] logman 후: 
+2026-09-19 18:49:41 [hook] G80SH ETW Auto 비활성화 rc=0  (재설치 후 /enable 로 복구할 것)
+2026-09-19 18:49:41 [hook] delete 'G80SH EDID Restore (boot)' rc=0
+2026-09-19 18:49:41 [hook] delete 'G80SH EDID Restore (logon)' rc=0
+2026-09-19 18:49:41 [hook] delete 'G80SH EDID Restore (timer)' rc=0
+2026-09-19 18:49:43 [hook] 작업 상태:
+  G80SH ETW Auto                     Disabled
+  Remote Display Switch              Running
+  Remote Display Restore (logon)     Running
+  CaseDisplay                        Running
+2026-09-19 19:02:28 [hook] === 재설치 완료. 감시자 재가동 ===
+2026-09-19 19:02:28 [hook] enable rc=0
+2026-09-19 19:02:28 [hook] run rc=0
+2026-09-19 19:02:28 auto rev.2 armed (captures=0 cool=30m post=150s)
+2026-09-19 19:02:28 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-19 19:02:36 [hook] running pid 11400
+2026-09-19 19:02:37 [hook] logman: G80SH                                   Trace                         Running
+2026-09-19 19:02:37 [hook] VIDEOIDLE: 현재 AC 전원 설정 색인: 0x00000384
+2026-09-19 19:35:46 TRIGGER -> +150s 더 담고 덤프 (#1 tag=0919-1935-1)
+2026-09-19 19:38:16 etl kept g80sh-dxg-0919-1935-1.etl (11,665,408 bytes)
+2026-09-19 19:38:35 [decode] decoded 100,307 events from g80sh-dxg-0919-1935-1.etl
+2026-09-19 19:38:35 [decode] kept 1,192
+2026-09-19 19:38:37 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0919-1935-1.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0919-1935-1.csv
+2026-09-19 19:38:37 cooling 30m
+2026-09-19 20:08:37 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-19 20:34:24 TRIGGER -> +150s 더 담고 덤프 (#2 tag=0919-2034-2)
+2026-09-19 20:36:54 etl kept g80sh-dxg-0919-2034-2.etl (7,208,960 bytes)
+2026-09-19 20:37:08 [decode] decoded 62,197 events from g80sh-dxg-0919-2034-2.etl
+2026-09-19 20:37:08 [decode] kept 1,378
+2026-09-19 20:37:11 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0919-2034-2.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0919-2034-2.csv
+2026-09-19 20:37:11 cooling 30m
+2026-09-19 21:07:11 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl

@@ -1,0 +1,52 @@
+﻿2026-09-18 10:26:39 10:11-10:26 G80SH=17 G50F=0 ghostEv=3 interval=48s avg (41~68) screen=off ghosts=1
+2026-09-18 10:27:38 10:26-10:27 G80SH=0 G50F=0 ghostEv=0 interval=- screen=off ghosts=0
+2026-09-18 10:42:41 10:27-10:42 G80SH=20 G50F=0 ghostEv=4 interval=46s avg (42~64) screen=off ghosts=1
+2026-09-18 10:57:40 10:42-10:57 G80SH=19 G50F=0 ghostEv=5 interval=45s avg (41~54) screen=off ghosts=1
+2026-09-18 11:12:41 10:57-11:12 G80SH=20 G50F=0 ghostEv=4 interval=46s avg (41~64) screen=off ghosts=1
+2026-09-18 11:27:41 11:12-11:27 G80SH=19 G50F=0 ghostEv=3 interval=48s avg (42~91) screen=off ghosts=2
+2026-09-18 11:42:41 11:27-11:42 G80SH=19 G50F=0 ghostEv=4 interval=45s avg (40~60) screen=off ghosts=1
+2026-09-18 11:57:41 11:42-11:57 G80SH=19 G50F=0 ghostEv=7 interval=46s avg (40~60) screen=off ghosts=1
+2026-09-18 12:12:41 11:57-12:12 G80SH=18 G50F=0 ghostEv=4 interval=52s avg (42~103) screen=off ghosts=2
+2026-09-18 12:27:41 12:12-12:27 G80SH=19 G50F=0 ghostEv=2 interval=46s avg (41~57) screen=off ghosts=1
+2026-09-18 12:42:41 12:27-12:42 G80SH=19 G50F=0 ghostEv=7 interval=47s avg (41~93) screen=off ghosts=1
+2026-09-18 12:57:41 12:42-12:57 G80SH=20 G50F=0 ghostEv=6 interval=45s avg (39~52) screen=off ghosts=2
+2026-09-18 13:12:41 12:57-13:12 G80SH=18 G50F=0 ghostEv=4 interval=48s avg (43~74) screen=off ghosts=1
+2026-09-18 13:27:41 13:12-13:27 G80SH=18 G50F=0 ghostEv=5 interval=47s avg (44~70) screen=off ghosts=1
+2026-09-18 13:42:41 13:27-13:42 G80SH=18 G50F=0 ghostEv=3 interval=49s avg (41~60) screen=off ghosts=1
+2026-09-18 13:57:41 13:42-13:57 G80SH=19 G50F=0 ghostEv=2 interval=47s avg (42~66) screen=off ghosts=1
+2026-09-18 14:12:41 13:57-14:12 G80SH=19 G50F=0 ghostEv=4 interval=47s avg (42~75) screen=off ghosts=1
+2026-09-18 14:27:41 14:12-14:27 G80SH=20 G50F=0 ghostEv=4 interval=45s avg (44~46) screen=off ghosts=1
+2026-09-18 14:42:41 14:27-14:42 G80SH=19 G50F=0 ghostEv=4 interval=47s avg (41~65) screen=off ghosts=1
+2026-09-18 14:57:41 14:42-14:57 G80SH=18 G50F=0 ghostEv=5 interval=50s avg (44~97) screen=off ghosts=1
+2026-09-18 15:12:40 14:57-15:12 G80SH=10 G50F=2 ghostEv=2 interval=80s avg (41~249) screen=on ghosts=1
+2026-09-18 15:27:41 15:12-15:27 G80SH=0 G50F=0 ghostEv=0 interval=- screen=dimmed ghosts=1
+2026-09-18 15:42:40 15:27-15:42 G80SH=10 G50F=1 ghostEv=3 interval=44s avg (38~50) screen=dimmed ghosts=1
+2026-09-18 15:57:40 15:42-15:57 G80SH=0 G50F=0 ghostEv=0 interval=- screen=dimmed ghosts=1
+2026-09-18 16:12:40 15:57-16:12 G80SH=0 G50F=0 ghostEv=0 interval=- screen=dimmed ghosts=1
+2026-09-18 16:27:40 16:12-16:27 G80SH=11 G50F=0 ghostEv=3 interval=49s avg (38~99) screen=dimmed ghosts=1
+2026-09-18 16:42:40 16:27-16:42 G80SH=4 G50F=0 ghostEv=1 interval=208s avg (42~533) screen=dimmed ghosts=1
+2026-09-18 16:57:40 16:42-16:57 G80SH=1 G50F=1 ghostEv=0 interval=- screen=on ghosts=1
+2026-09-18 17:12:40 16:57-17:12 G80SH=0 G50F=0 ghostEv=0 interval=- screen=on ghosts=1
+2026-09-18 17:27:41 17:12-17:27 G80SH=0 G50F=0 ghostEv=0 interval=- screen=dimmed ghosts=1
+2026-09-18 17:42:40 17:27-17:42 G80SH=11 G50F=2 ghostEv=2 interval=46s avg (37~60) screen=on ghosts=1
+2026-09-18 17:57:40 17:42-17:57 G80SH=0 G50F=0 ghostEv=0 interval=- screen=on ghosts=1
+2026-09-18 18:12:40 17:57-18:12 G80SH=0 G50F=0 ghostEv=0 interval=- screen=on ghosts=1
+2026-09-18 18:27:40 18:12-18:27 G80SH=0 G50F=0 ghostEv=0 interval=- screen=on ghosts=1
+2026-09-18 18:42:40 18:27-18:42 G80SH=0 G50F=0 ghostEv=0 interval=- screen=on ghosts=1
+2026-09-18 18:57:40 18:42-18:57 G80SH=0 G50F=0 ghostEv=0 interval=- screen=on ghosts=1
+2026-09-18 19:12:40 18:57-19:12 G80SH=0 G50F=0 ghostEv=0 interval=- screen=on ghosts=1
+2026-09-18 19:27:40 19:12-19:27 G80SH=0 G50F=0 ghostEv=0 interval=- screen=on ghosts=1
+2026-09-18 19:42:41 19:27-19:42 G80SH=0 G50F=0 ghostEv=0 interval=- screen=on ghosts=1
+2026-09-18 19:57:41 19:42-19:57 G80SH=0 G50F=0 ghostEv=0 interval=- screen=on ghosts=1
+2026-09-18 20:12:41 19:57-20:12 G80SH=0 G50F=0 ghostEv=0 interval=- screen=on ghosts=1
+2026-09-18 20:27:41 20:12-20:27 G80SH=0 G50F=0 ghostEv=0 interval=- screen=on ghosts=1
+2026-09-18 20:42:40 20:27-20:42 G80SH=0 G50F=0 ghostEv=0 interval=- screen=on ghosts=1
+2026-09-18 20:57:40 20:42-20:57 G80SH=0 G50F=0 ghostEv=0 interval=- screen=dimmed ghosts=1
+2026-09-18 21:12:39 20:57-21:12 G80SH=0 G50F=0 ghostEv=0 interval=- screen=off ghosts=1
+2026-09-18 21:27:39 21:12-21:27 G80SH=0 G50F=0 ghostEv=0 interval=- screen=off ghosts=1
+2026-09-18 21:42:39 21:27-21:42 G80SH=0 G50F=0 ghostEv=0 interval=- screen=off ghosts=1
+2026-09-18 21:57:39 21:42-21:57 G80SH=1 G50F=1 ghostEv=0 interval=- screen=on ghosts=1
+2026-09-18 22:12:39 21:57-22:12 G80SH=0 G50F=0 ghostEv=0 interval=- screen=dimmed ghosts=1
+2026-09-18 22:27:39 22:12-22:27 G80SH=0 G50F=0 ghostEv=0 interval=- screen=dimmed ghosts=1
+2026-09-18 22:57:41 22:27-22:57 G80SH=0 G50F=0 ghostEv=0 interval=- screen=dimmed ghosts=1
+2026-09-18 23:12:41 22:57-23:12 G80SH=1 G50F=2 ghostEv=0 interval=- screen=dimmed ghosts=1

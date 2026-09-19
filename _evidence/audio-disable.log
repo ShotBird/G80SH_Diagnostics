@@ -1,0 +1,5 @@
+﻿=== 2026-09-19 21:15:49 GPU 오디오 비활성화 시도 ===
+대상: HDAUDIO\FUNC_01&VEN_1002&DEV_AA01&SUBSYS_00AA0100&REV_100A\7&4A72B29&0&0001
+Disable-PnpDevice OK
+결과: Status=Error Present=True
+되돌리기: Enable-PnpDevice -InstanceId 'HDAUDIO\FUNC_01&VEN_1002&DEV_AA01&SUBSYS_00AA0100&REV_100A\7&4A72B29&0&0001' -Confirm:$false  (관리자)

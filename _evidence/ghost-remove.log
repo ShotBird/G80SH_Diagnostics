@@ -1,0 +1,30 @@
+﻿=== 유령 devnode 제거  2026-09-19 19:49:42 ===
+
+--- 제거 전 ---
+  OK       Present=True  DISPLAY\BBC0104\7&16B8DDB4&0&UID265
+  Unknown  Present=False DISPLAY\DEFAULT_MONITOR\7&16B8DDB4&0&UID256
+  OK       Present=True  DISPLAY\SAM79DF\7&16B8DDB4&0&UID260
+  Unknown  Present=False DISPLAY\SAM7B0C\1&8713BCA&0&UID0
+  OK       Present=True  DISPLAY\SAM7B0C\7&16B8DDB4&0&UID256
+
+--- 제거 실행 (Present=False 만) ---
+  DISPLAY\DEFAULT_MONITOR\7&16B8DDB4&0&UID256  rc=0
+      Microsoft PnP Utility
+      Removing device:          DISPLAY\Default_Monitor\7&16b8ddb4&0&UID256
+      Device removed successfully.
+  DISPLAY\SAM7B0C\1&8713BCA&0&UID0  rc=0
+      Microsoft PnP Utility
+      Removing device:          DISPLAY\SAM7B0C\1&8713bca&0&UID0
+      Device removed successfully.
+
+--- 제거 후 ---
+  OK       Present=True  DISPLAY\BBC0104\7&16B8DDB4&0&UID265
+  OK       Present=True  DISPLAY\SAM79DF\7&16B8DDB4&0&UID260
+  OK       Present=True  DISPLAY\SAM7B0C\7&16B8DDB4&0&UID256
+
+--- 레지스트리 Enum\DISPLAY 잔존 확인 ---
+  BBC0104\7&16b8ddb4&0&UID265   EDID 256B
+  Default_Monitor\1&1f0c3c2f&0&UID256   EDID 없음
+  Default_Monitor\1&31c5ecd4&0&UID256   EDID 없음
+  SAM79DF\7&16b8ddb4&0&UID260   EDID 384B
+  SAM7B0C\7&16b8ddb4&0&UID256   EDID 384B

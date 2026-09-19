@@ -1,0 +1,75 @@
+﻿=== 2026-09-19 18:28:11 ===
+--- WinRE ---
+Windows Recovery Environment (Windows RE) and system reset configuration
+Information:
+
+    Windows RE status:         Enabled
+    Windows RE location:       \\?\GLOBALROOT\device\harddisk0\partition4\Recovery\WindowsRE
+    Boot Configuration Data (BCD) identifier: 8d691640-928f-11f1-9cdd-d84a84a97702
+    Recovery image location:   
+    Recovery image index:      0
+    Custom image location:     
+    Custom image index:        0
+    Windows RE Version:        10.0.26100.9444
+
+REAGENTC.EXE: Operation Successful.
+    
+
+--- 시스템 복원 지점 ---
+
+SequenceNumber Description      When                  
+-------------- -----------      ----                  
+            22 Windows 업데이트     2026-09-15 오전 9:49:01 
+            23 ENE_MousePad_HAL 2026-09-17 오후 11:50:00
+
+
+
+
+--- 복원 기능 활성 여부 ---
+vssadmin 1.1 - Volume Shadow Copy Service administrative command-line tool
+(C) Copyright 2001-2013 Microsoft Corp.
+
+Shadow Copy Storage association
+   For volume: (C:)\\?\Volume{8ad97f3f-984c-4d1c-bb06-51e8509fc127}\
+   Shadow Copy Storage volume: (C:)\\?\Volume{8ad97f3f-984c-4d1c-bb06-51e8509fc127}\
+   Used Shadow Copy Storage space: 14.5GB (0%)
+   Allocated Shadow Copy Storage space: 16.1GB (0%)
+   Maximum Shadow Copy Storage space: 37.2GB (1%)
+
+
+--- 복원 지점 생성 시도 ---
+  Enable-ComputerRestore OK
+  Checkpoint-Computer OK
+
+SequenceNumber Description      When                  
+-------------- -----------      ----                  
+            22 Windows 업데이트     2026-09-15 오전 9:49:01 
+            23 ENE_MousePad_HAL 2026-09-17 오후 11:50:00
+            24 G80SH DDU 전 기준선  2026-09-19 오후 6:28:12 
+
+
+
+
+--- 현재 디스플레이 드라이버 패키지 (롤백용) ---
+Microsoft PnP Utility
+
+Published Name:     oem4.inf
+Original Name:      u0203303.inf
+Provider Name:      Advanced Micro Devices, Inc.
+Class Name:         Display
+Class GUID:         {4d36e968-e325-11ce-bfc1-08002be10318}
+Driver Version:     08/17/2026 32.0.21045.5002
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+Attributes:         Declarative
+WHCP Version:       Unknown
+
+Published Name:     oem50.inf
+Original Name:      u0203304.inf
+Provider Name:      Advanced Micro Devices, Inc.
+Class Name:         Display
+Class GUID:         {4d36e968-e325-11ce-bfc1-08002be10318}
+Driver Version:     08/17/2026 32.0.31041.1004
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+Attributes:         Declarative
+WHCP Version:       Unknown
+

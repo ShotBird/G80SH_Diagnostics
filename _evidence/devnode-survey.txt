@@ -1,0 +1,59 @@
+﻿=== 모니터 devnode 전수 조사  2026-09-19 18:32:35 ===
+
+--- 유령 포함 전체 Monitor 장치 ---
+  OK       Present=True  DISPLAY\BBC0104\7&16B8DDB4&0&UID265
+           Generic Monitor (HDP-V104)
+  Unknown  Present=False DISPLAY\DEFAULT_MONITOR\7&16B8DDB4&0&UID256
+           Generic Monitor
+  OK       Present=True  DISPLAY\SAM79DF\7&16B8DDB4&0&UID260
+           Generic Monitor (Odyssey G50F)
+  OK       Present=True  DISPLAY\SAM7B0C\7&16B8DDB4&0&UID256
+           Generic Monitor (Odyssey G80SH)
+
+--- 레지스트리 Enum\DISPLAY ---
+
+[BBC0104]
+   inst = 7&16b8ddb4&0&UID265
+      DeviceDesc  = @monitor.inf,%pnpmonitor.devicedesc%;Generic PnP Monitor
+      FriendlyName= @System32\drivers\dxgkrnl.sys,#303;Generic Monitor (%1);(HDP-V104)
+      ConfigFlags = 0
+      DevParams   = EDID
+      EDID len=256 head=00ffffffffffff000843040199999999011c0103
+
+[Default_Monitor]
+   inst = 1&1f0c3c2f&0&UID256
+      DeviceDesc  = @monitor.inf,%pnpmonitor.devicedesc%;Generic PnP Monitor
+      FriendlyName= @System32\drivers\dxgkrnl.sys,#300;Generic Monitor
+      ConfigFlags = 0
+   inst = 1&31c5ecd4&0&UID256
+      DeviceDesc  = @monitor.inf,%pnpmonitor.devicedesc%;Generic PnP Monitor
+      FriendlyName= @System32\drivers\dxgkrnl.sys,#300;Generic Monitor
+      ConfigFlags = 0
+   inst = 7&16b8ddb4&0&UID256
+      DeviceDesc  = @monitor.inf,%nonpnpmonitor.devicedesc%;Generic Non-PnP Monitor
+      FriendlyName= @System32\drivers\dxgkrnl.sys,#300;Generic Monitor
+      ConfigFlags = 0
+
+[SAM79DF]
+   inst = 7&16b8ddb4&0&UID260
+      DeviceDesc  = @monitor.inf,%pnpmonitor.devicedesc%;Generic PnP Monitor
+      FriendlyName= @System32\drivers\dxgkrnl.sys,#303;Generic Monitor (%1);(Odyssey G50F)
+      ConfigFlags = 0
+      DevParams   = EDID
+      EDID len=384 head=00ffffffffffff004c2ddf79554c31311d240104
+
+[SAM7B0C]
+   inst = 7&16b8ddb4&0&UID256
+      DeviceDesc  = @monitor.inf,%pnpmonitor.devicedesc%;Generic PnP Monitor
+      FriendlyName= @System32\drivers\dxgkrnl.sys,#303;Generic Monitor (%1);(Odyssey G80SH)
+      ConfigFlags = 0
+      DevParams   = EDID
+      EDID len=384 head=00ffffffffffff004c2d0c7b433233311f240104
+
+--- 디스플레이 어댑터 클래스 키의 EDID 관련 하위키 ---
+[0000]
+   HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000\DAL2_DATA__2_0\DisplayPath_0\EDID_2D4C_7B0C
+   HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000\DAL2_DATA__2_0\DisplayPath_0\EDID_331_2701
+   HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000\DAL2_DATA__2_0\DisplayPath_4\EDID_2D4C_79DF
+   HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000\DAL2_DATA__2_0\DisplayPath_4\EDID_331_2701
+   HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000\DAL3_DATA\freesync_v1\EDID_11596_31500_Odyssey G80SH_0

@@ -1,0 +1,116 @@
+2026-09-19 17:58:27 adapter idx=5 AMD Radeon RX 9070 XT
+2026-09-19 17:58:27   connector[0] connIdx=0 DisplayPort  emulStatus=0x1 emulMode=0(OFF) displayIndex=0
+2026-09-19 17:58:27       REAL      size=384   mfg=SAM product=0x7B0C
+2026-09-19 17:58:27       CURRENT   size=384   mfg=SAM product=0x7B0C
+2026-09-19 17:58:27   connector[1] connIdx=1 DisplayPort  emulStatus=0x1 emulMode=0(OFF) displayIndex=4
+2026-09-19 17:58:27       REAL      size=384   mfg=SAM product=0x79DF
+2026-09-19 17:58:27       CURRENT   size=384   mfg=SAM product=0x79DF
+2026-09-19 17:58:27   connector[2] connIdx=2 HDMI-A       emulStatus=0x0 emulMode=0(OFF) displayIndex=8
+2026-09-19 17:58:27   connector[3] connIdx=3 HDMI-A       emulStatus=0x1 emulMode=0(OFF) displayIndex=9
+2026-09-19 17:58:27   => G80SH connector: connIdx=0
+2026-09-19 17:58:36 OFF: 에뮬레이션이 걸린 커넥터가 없다 (이미 정상)
+2026-09-19 17:59:06 [hook] === 복구 장치 등록 ===
+2026-09-19 17:59:06 [hook] boot task rc=0 : SUCCESS: The scheduled task "G80SH EDID Restore (boot)" has successfully been created.
+2026-09-19 17:59:06 [hook] logon task rc=0 : SUCCESS: The scheduled task "G80SH EDID Restore (logon)" has successfully been created.
+2026-09-19 17:59:06 [hook] --- SYSTEM 컨텍스트 검증 실행 ---
+2026-09-19 17:59:06 OFF: 에뮬레이션이 걸린 커넥터가 없다 (이미 정상)
+2026-09-19 17:59:14 [hook] boot task LastResult=0
+2026-09-19 17:59:14 [hook] === 끝 ===
+2026-09-19 17:59:53 [hook] timer task (18:22) rc=0 : SUCCESS: The scheduled task "G80SH EDID Restore (timer)" has successfully been created.
+2026-09-19 17:59:53 [hook] 복구 3중: boot(onstart) / logon / timer(18:22)
+2026-09-19 18:01:49 ON: connIdx=0 에 REAL EDID 384바이트 (SAM 0x7B0C) 를 mode=2(ON_DISCONNECTED) 로 심는다
+2026-09-19 18:01:49   ConnectionData_Set rc=-8
+2026-09-19 18:06:50 OFF: 에뮬레이션이 걸린 커넥터가 없다 (이미 정상)
+2026-09-19 18:11:50 adapter idx=5 AMD Radeon RX 9070 XT
+2026-09-19 18:11:50   connector[0] connIdx=0 DisplayPort  emulStatus=0x1 emulMode=0(OFF) displayIndex=0
+2026-09-19 18:11:50   connector[1] connIdx=1 DisplayPort  emulStatus=0x1 emulMode=0(OFF) displayIndex=4
+2026-09-19 18:11:50   connector[2] connIdx=2 HDMI-A       emulStatus=0x0 emulMode=0(OFF) displayIndex=8
+2026-09-19 18:11:50   connector[3] connIdx=3 HDMI-A       emulStatus=0x1 emulMode=0(OFF) displayIndex=9
+2026-09-19 18:11:50   => G80SH connector: 찾지 못함
+2026-09-19 18:14:10 adapter idx=5 AMD Radeon RX 9070 XT
+2026-09-19 18:14:10   connector[0] connIdx=0 DisplayPort  emulStatus=0x1 emulMode=0(OFF) displayIndex=0
+2026-09-19 18:14:10       REAL      size=384   mfg=SAM product=0x7B0C
+2026-09-19 18:14:10       CURRENT   size=384   mfg=SAM product=0x7B0C
+2026-09-19 18:14:10   connector[1] connIdx=1 DisplayPort  emulStatus=0x1 emulMode=0(OFF) displayIndex=4
+2026-09-19 18:14:10       REAL      size=384   mfg=SAM product=0x79DF
+2026-09-19 18:14:10       CURRENT   size=384   mfg=SAM product=0x79DF
+2026-09-19 18:14:10   connector[2] connIdx=2 HDMI-A       emulStatus=0x0 emulMode=0(OFF) displayIndex=8
+2026-09-19 18:14:10   connector[3] connIdx=3 HDMI-A       emulStatus=0x1 emulMode=0(OFF) displayIndex=9
+2026-09-19 18:14:10   => G80SH connector: connIdx=0
+2026-09-19 18:22:00 OFF: 에뮬레이션이 걸린 커넥터가 없다 (이미 정상)
+2026-09-19 19:55:24 adapter idx=5 AMD Radeon RX 9070 XT
+2026-09-19 19:55:24   connector[0] connIdx=0 DisplayPort  emulStatus=0x1 emulMode=0(OFF) displayIndex=0
+2026-09-19 19:55:24       REAL      size=384   mfg=SAM product=0x7B0C
+2026-09-19 19:55:24       CURRENT   size=384   mfg=SAM product=0x7B0C
+2026-09-19 19:55:24   connector[1] connIdx=1 DisplayPort  emulStatus=0x1 emulMode=0(OFF) displayIndex=4
+2026-09-19 19:55:24       REAL      size=384   mfg=SAM product=0x79DF
+2026-09-19 19:55:24       CURRENT   size=384   mfg=SAM product=0x79DF
+2026-09-19 19:55:24   connector[2] connIdx=2 HDMI-A       emulStatus=0x0 emulMode=0(OFF) displayIndex=8
+2026-09-19 19:55:24   connector[3] connIdx=3 HDMI-A       emulStatus=0x1 emulMode=0(OFF) displayIndex=9
+2026-09-19 19:55:24   => G80SH connector: connIdx=0
+2026-09-19 20:50:46 adapter idx=5 AMD Radeon RX 9070 XT
+2026-09-19 20:50:46   connector[0] connIdx=0 DisplayPort  emulStatus=0x1 emulMode=0(OFF) displayIndex=0
+2026-09-19 20:50:46       REAL      size=384   mfg=SAM product=0x7B0B
+2026-09-19 20:50:46       CURRENT   size=384   mfg=SAM product=0x7B0B
+2026-09-19 20:50:46   connector[1] connIdx=1 DisplayPort  emulStatus=0x1 emulMode=0(OFF) displayIndex=4
+2026-09-19 20:50:46       REAL      size=384   mfg=SAM product=0x79DF
+2026-09-19 20:50:46       CURRENT   size=384   mfg=SAM product=0x79DF
+2026-09-19 20:50:46   connector[2] connIdx=2 HDMI-A       emulStatus=0x0 emulMode=0(OFF) displayIndex=8
+2026-09-19 20:50:46   connector[3] connIdx=3 HDMI-A       emulStatus=0x1 emulMode=0(OFF) displayIndex=9
+2026-09-19 20:50:46       REAL      size=256   mfg=BBC product=0x0104
+2026-09-19 20:50:46       CURRENT   size=256   mfg=BBC product=0x0104
+2026-09-19 20:50:46   => G80SH connector: connIdx=0
+2026-09-19 20:56:29 adapter idx=5 AMD Radeon RX 9070 XT
+2026-09-19 20:56:29   connector[0] connIdx=0 DisplayPort  emulStatus=0x1 emulMode=0(OFF) displayIndex=0
+2026-09-19 20:56:29       REAL      size=384   mfg=SAM product=0x7B0B
+2026-09-19 20:56:29       CURRENT   size=384   mfg=SAM product=0x7B0B
+2026-09-19 20:56:29   connector[1] connIdx=1 DisplayPort  emulStatus=0x1 emulMode=0(OFF) displayIndex=4
+2026-09-19 20:56:29       REAL      size=384   mfg=SAM product=0x79DF
+2026-09-19 20:56:29       CURRENT   size=384   mfg=SAM product=0x79DF
+2026-09-19 20:56:29   connector[2] connIdx=2 HDMI-A       emulStatus=0x0 emulMode=0(OFF) displayIndex=8
+2026-09-19 20:56:29   connector[3] connIdx=3 HDMI-A       emulStatus=0x1 emulMode=0(OFF) displayIndex=9
+2026-09-19 20:56:29       REAL      size=256   mfg=BBC product=0x0104
+2026-09-19 20:56:29       CURRENT   size=256   mfg=BBC product=0x0104
+2026-09-19 20:56:29   => G80SH connector: connIdx=0
+2026-09-19 21:00:10 adapter idx=5 AMD Radeon RX 9070 XT
+2026-09-19 21:00:10   connector[0] connIdx=0 DisplayPort  emulStatus=0x1 emulMode=0(OFF) displayIndex=0
+2026-09-19 21:00:10       REAL      size=384   mfg=SAM product=0x7B0B
+2026-09-19 21:00:10       CURRENT   size=384   mfg=SAM product=0x7B0B
+2026-09-19 21:00:10   connector[1] connIdx=1 DisplayPort  emulStatus=0x1 emulMode=0(OFF) displayIndex=4
+2026-09-19 21:00:10       REAL      size=384   mfg=SAM product=0x79DF
+2026-09-19 21:00:10       CURRENT   size=384   mfg=SAM product=0x79DF
+2026-09-19 21:00:10   connector[2] connIdx=2 HDMI-A       emulStatus=0x0 emulMode=0(OFF) displayIndex=8
+2026-09-19 21:00:10   connector[3] connIdx=3 HDMI-A       emulStatus=0x1 emulMode=0(OFF) displayIndex=9
+2026-09-19 21:00:10       REAL      size=256   mfg=BBC product=0x0104
+2026-09-19 21:00:10       CURRENT   size=256   mfg=BBC product=0x0104
+2026-09-19 21:00:10   => G80SH connector: connIdx=0
+2026-09-19 21:11:02 adapter idx=5 AMD Radeon RX 9070 XT
+2026-09-19 21:11:02   connector[0] connIdx=0 DisplayPort  emulStatus=0x1 emulMode=0(OFF) displayIndex=0
+2026-09-19 21:11:02       REAL      size=384   mfg=SAM product=0x7B0C
+2026-09-19 21:11:02       CURRENT   size=384   mfg=SAM product=0x7B0C
+2026-09-19 21:11:02   connector[1] connIdx=1 DisplayPort  emulStatus=0x1 emulMode=0(OFF) displayIndex=4
+2026-09-19 21:11:02       REAL      size=384   mfg=SAM product=0x79DF
+2026-09-19 21:11:02       CURRENT   size=384   mfg=SAM product=0x79DF
+2026-09-19 21:11:02   connector[2] connIdx=2 HDMI-A       emulStatus=0x0 emulMode=0(OFF) displayIndex=8
+2026-09-19 21:11:02   connector[3] connIdx=3 HDMI-A       emulStatus=0x1 emulMode=0(OFF) displayIndex=9
+2026-09-19 21:11:02   => G80SH connector: connIdx=0
+2026-09-19 21:18:53 adapter idx=5 AMD Radeon RX 9070 XT
+2026-09-19 21:18:53   connector[0] connIdx=0 DisplayPort  emulStatus=0x1 emulMode=0(OFF) displayIndex=0
+2026-09-19 21:18:53       REAL      size=384   mfg=SAM product=0x7B0C
+2026-09-19 21:18:53       CURRENT   size=384   mfg=SAM product=0x7B0C
+2026-09-19 21:18:53   connector[1] connIdx=1 DisplayPort  emulStatus=0x1 emulMode=0(OFF) displayIndex=4
+2026-09-19 21:18:53       REAL      size=384   mfg=SAM product=0x79DF
+2026-09-19 21:18:53       CURRENT   size=384   mfg=SAM product=0x79DF
+2026-09-19 21:18:53   connector[2] connIdx=2 HDMI-A       emulStatus=0x0 emulMode=0(OFF) displayIndex=8
+2026-09-19 21:18:53   connector[3] connIdx=3 HDMI-A       emulStatus=0x1 emulMode=0(OFF) displayIndex=9
+2026-09-19 21:18:53   => G80SH connector: connIdx=0
+2026-09-19 21:49:40 adapter idx=5 AMD Radeon RX 9070 XT
+2026-09-19 21:49:40   connector[0] connIdx=0 DisplayPort  emulStatus=0x1 emulMode=0(OFF) displayIndex=0
+2026-09-19 21:49:40       REAL      size=384   mfg=SAM product=0x7B0C
+2026-09-19 21:49:40       CURRENT   size=384   mfg=SAM product=0x7B0C
+2026-09-19 21:49:40   connector[1] connIdx=1 DisplayPort  emulStatus=0x1 emulMode=0(OFF) displayIndex=4
+2026-09-19 21:49:40       REAL      size=384   mfg=SAM product=0x79DF
+2026-09-19 21:49:40       CURRENT   size=384   mfg=SAM product=0x79DF
+2026-09-19 21:49:40   connector[2] connIdx=2 HDMI-A       emulStatus=0x0 emulMode=0(OFF) displayIndex=8
+2026-09-19 21:49:40   connector[3] connIdx=3 HDMI-A       emulStatus=0x1 emulMode=0(OFF) displayIndex=9
+2026-09-19 21:49:40   => G80SH connector: connIdx=0

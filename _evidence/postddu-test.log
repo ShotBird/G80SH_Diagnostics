@@ -1,0 +1,43 @@
+﻿=== 재설치 후 판정  VIDEOIDLE=120s, 19:03:09 적용 ===
+잔재 제거됨: DAL EDID_331_2701 x2, freesync_v1 EDID
+기준: 화면 꺼짐(566) 후 47~222초 안에 첫 SAM7B0C 1010 이 나던 것이 폭풍
+19:03:44  아직 화면 켜짐 (입력 대기)
+19:04:04  아직 화면 켜짐 (입력 대기)
+19:04:24  아직 화면 켜짐 (입력 대기)
+19:04:44  아직 화면 켜짐 (입력 대기)
+19:05:04  아직 화면 켜짐 (입력 대기)
+19:05:24  아직 화면 켜짐 (입력 대기)
+19:05:44  566 감지 -> 화면 꺼짐 19:05:27
+19:05:44  +  17s  SAM7B0C/Default=0
+19:06:05  +  37s  SAM7B0C/Default=0
+19:06:25  +  58s  SAM7B0C/Default=0
+19:06:45  +  78s  SAM7B0C/Default=0
+19:07:05  +  98s  SAM7B0C/Default=0
+19:07:25  + 118s  SAM7B0C/Default=0
+19:07:46  + 138s  SAM7B0C/Default=0
+19:08:06  + 158s  SAM7B0C/Default=0
+19:08:26  + 178s  SAM7B0C/Default=0
+19:08:46  + 198s  SAM7B0C/Default=0
+19:09:06  + 218s  SAM7B0C/Default=0
+19:09:26  + 239s  SAM7B0C/Default=0
+19:09:46  + 259s  SAM7B0C/Default=0
+19:10:06  + 279s  SAM7B0C/Default=0
+19:10:26  + 299s  SAM7B0C/Default=0
+19:10:46  + 319s  SAM7B0C/Default=0
+19:11:06  + 339s  SAM7B0C/Default=0
+19:11:26  + 359s  SAM7B0C/Default=0
+19:11:46  + 379s  SAM7B0C/Default=0
+19:12:06  + 399s  SAM7B0C/Default=0
+19:12:26  + 419s  SAM7B0C/Default=0
+19:12:46  + 439s  SAM7B0C/Default=0
+19:13:06  + 459s  SAM7B0C/Default=0
+19:13:26  + 479s  SAM7B0C/Default=0
+19:13:46  + 499s  SAM7B0C/Default=0
+19:14:06  + 519s  SAM7B0C/Default=0
+19:14:27  + 539s  SAM7B0C/Default=0
+19:14:47  + 559s  SAM7B0C/Default=0
+19:15:07  + 579s  SAM7B0C/Default=0
+19:15:27  + 599s  SAM7B0C/Default=0
+19:15:47  + 619s  SAM7B0C/Default=0
+=> 화면 꺼짐 600초 동안 0건. 기준선(47~222초 내 발생)과 명백히 다르다.
+=== 종료 ===

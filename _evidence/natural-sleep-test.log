@@ -1,0 +1,34 @@
+﻿=== 자연 절전 경로 대조 실험 (VIDEOIDLE=60s) ===
+16:52:17 wake nudge -> 60초 뒤 자연 절전 예상
+기준: 12:26:13 자연 절전 -> 47초 만에 첫 SAM7B0C 1010
+16:52:49  +  20s  1010=0  | 2026-09-19 16:52:20 screen on
+16:53:09  +  40s  1010=0  | 2026-09-19 16:52:20 screen on
+16:53:29  +  60s  1010=0  | 2026-09-19 16:53:20 monitors asleep - screen off
+16:53:49  +  80s  1010=0  | 2026-09-19 16:53:20 monitors asleep - screen off
+16:54:09  + 100s  1010=0  | 2026-09-19 16:53:20 monitors asleep - screen off
+16:54:29  + 120s  1010=0  | 2026-09-19 16:53:20 monitors asleep - screen off
+16:54:49  + 140s  1010=0  | 2026-09-19 16:53:20 monitors asleep - screen off
+16:55:09  + 160s  1010=0  | 2026-09-19 16:53:20 monitors asleep - screen off
+16:55:29  + 180s  1010=0  | 2026-09-19 16:53:20 monitors asleep - screen off
+16:55:49  + 200s  1010=0  | 2026-09-19 16:53:20 monitors asleep - screen off
+16:56:10  + 220s  1010=0  | 2026-09-19 16:53:20 monitors asleep - screen off
+16:56:30  + 240s  1010=0  | 2026-09-19 16:53:20 monitors asleep - screen off
+16:56:50  + 260s  1010=0  | 2026-09-19 16:53:20 monitors asleep - screen off
+16:57:10  + 280s  1010=0  | 2026-09-19 16:53:20 monitors asleep - screen off
+16:57:30  + 300s  1010=0  | 2026-09-19 16:53:20 monitors asleep - screen off
+16:57:50  + 320s  1010=0  | 2026-09-19 16:53:20 monitors asleep - screen off
+16:58:10  + 340s  1010=0  | 2026-09-19 16:53:20 monitors asleep - screen off
+16:58:30  + 360s  1010=0  | 2026-09-19 16:53:20 monitors asleep - screen off
+16:58:50  + 380s  1010=0  | 2026-09-19 16:53:20 monitors asleep - screen off
+16:59:10  + 400s  1010=0  | 2026-09-19 16:53:20 monitors asleep - screen off
+16:59:30  + 420s  1010=0  | 2026-09-19 16:53:20 monitors asleep - screen off
+16:59:50  + 441s  1010=0  | 2026-09-19 16:53:20 monitors asleep - screen off
+17:00:10  + 461s  1010=0  | 2026-09-19 16:53:20 monitors asleep - screen off
+17:00:30  + 481s  1010=0  | 2026-09-19 16:53:20 monitors asleep - screen off
+17:00:50  + 501s  1010=0  | 2026-09-19 16:53:20 monitors asleep - screen off
+17:01:10  + 521s  1010=0  | 2026-09-19 16:53:20 monitors asleep - screen off
+17:01:30  + 541s  1010=0  | 2026-09-19 16:53:20 monitors asleep - screen off
+17:01:50  + 561s  1010=0  | 2026-09-19 16:53:20 monitors asleep - screen off
+17:02:10  + 581s  1010=0  | 2026-09-19 16:53:20 monitors asleep - screen off
+17:02:30  + 601s  1010=0  | 2026-09-19 16:53:20 monitors asleep - screen off
+=== 종료 ===
