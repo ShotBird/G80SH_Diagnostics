@@ -1,7 +1,7 @@
 # 01 — ETW 캡처 확보
 
 Type: task
-Status: claimed
+Status: resolved
 Blocked by: —
 
 ## Question
