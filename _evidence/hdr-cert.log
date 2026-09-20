@@ -1,0 +1,9 @@
+﻿[Odyssey G80SH]  DISPLAY\SAM7B0C\7&16B8DDB4&0&UID260  ->  HKLM:\SYSTEM\CurrentControlSet\Control\Class\{4d36e96e-e325-1
+1ce-bfc1-08002be10318}\0008
+  -> DisplayHdrLevel 설정 완료 (Odyssey G80SH): 3B6DAA9E-3794-4D85-897E-93AE990D275D, F9310F0E-93B2-4A58-8642-17358D8CB2E3
+[HDP-V104]  DISPLAY\BBC0104\7&16B8DDB4&0&UID265  ->  HKLM:\SYSTEM\CurrentControlSet\Control\Class\{4d36e96e-e325-11ce-b
+fc1-08002be10318}\0001
+[Odyssey G50F]  DISPLAY\SAM79DF\7&16B8DDB4&0&UID256  ->  HKLM:\SYSTEM\CurrentControlSet\Control\Class\{4d36e96e-e325-11
+ce-bfc1-08002be10318}\0009
+
+재부팅(또는 로그아웃/로그인) 후 설정 > 시스템 > 디스플레이 > 고급 디스플레이에서 확인하세요.
