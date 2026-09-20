@@ -111,3 +111,4 @@
 2026-09-20 18:46:09 [decode] kept 1,392
 2026-09-20 18:46:11 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0920-1843-5.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0920-1843-5.csv
 2026-09-20 18:46:11 cooling 30m
+2026-09-20 19:16:11 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
