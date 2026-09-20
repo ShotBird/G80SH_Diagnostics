@@ -90,3 +90,10 @@
 2026-09-20 17:07:32 [decode] kept 1,643
 2026-09-20 17:07:35 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0920-1704-2.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0920-1704-2.csv
 2026-09-20 17:07:35 cooling 30m
+2026-09-20 17:37:35 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-20 17:37:50 TRIGGER -> +150s 더 담고 덤프 (#3 tag=0920-1737-3)
+2026-09-20 17:40:20 etl kept g80sh-dxg-0920-1737-3.etl (2,621,440 bytes)
+2026-09-20 17:40:23 [decode] decoded 17,067 events from g80sh-dxg-0920-1737-3.etl
+2026-09-20 17:40:23 [decode] kept 666
+2026-09-20 17:40:25 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0920-1737-3.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0920-1737-3.csv
+2026-09-20 17:40:25 cooling 30m
