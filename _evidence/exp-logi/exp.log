@@ -1,0 +1,8 @@
+﻿2026-09-24 04:13:57 armed — running: OptionsPlusUpdaterService
+2026-09-24 04:14:02 stopped — remaining: 
+2026-09-24 04:14:02 capture start
+2026-09-24 04:14:49 [수동] agent/appbroker 정지 — 스크립트 인자 버그(-File 에 쉼표 목록이 한 문자열로 들어감). 분석은 이 시각부터
+2026-09-24 04:14:55 [수동] appbroker 관리자 정지 — 남은 것: 
+2026-09-24 04:44:03 capture stop 1,098,907,648 bytes
+2026-09-24 04:44:26 restarted — running: OptionsPlusUpdaterService
+2026-09-24 04:44:26 done — task unregister

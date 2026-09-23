@@ -21,6 +21,10 @@ G80 = '260'
 
 
 def load():
+    global CSV
+    import sys
+    if len(sys.argv) > 1:
+        CSV = Path(sys.argv[1])
     byf = collections.defaultdict(list)
     for r in csv.DictReader(open(CSV, encoding='utf-8-sig')):
         r['t'] = datetime.strptime(r['time'], '%Y-%m-%d %H:%M:%S.%f')

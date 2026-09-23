@@ -1,0 +1,37 @@
+﻿2026-09-24 04:44:35 armed — running: atieclxx,CaseDisplay,CPUMetricsServer,HWINFO,lghub_agent,lghub_system_tray,lghub_updater,LibreHardwareMonitor,logioptionsplus_agent,logioptionsplus_appbroker,logioptionsplus_updater,RadeonSoftware,TRCC,USBLCD,USBLCDNEW
+2026-09-24 04:44:40 stopped — remaining: lghub_updater / watcher: 0
+2026-09-24 04:44:40 capture start
+2026-09-24 04:45:41 revived: CPUMetricsServer,lghub_updater,RadeonSoftware — 다시 정지
+2026-09-24 04:46:41 revived: CPUMetricsServer,lghub_updater,RadeonSoftware — 다시 정지
+2026-09-24 04:47:41 revived: CPUMetricsServer,lghub_updater,RadeonSoftware — 다시 정지
+2026-09-24 04:48:41 revived: CPUMetricsServer,lghub_updater,RadeonSoftware — 다시 정지
+2026-09-24 04:49:41 revived: CPUMetricsServer,lghub_updater,RadeonSoftware — 다시 정지
+2026-09-24 04:50:41 revived: CPUMetricsServer,lghub_updater,RadeonSoftware — 다시 정지
+2026-09-24 04:51:41 revived: CPUMetricsServer,lghub_updater,RadeonSoftware — 다시 정지
+2026-09-24 04:52:41 revived: CPUMetricsServer,lghub_updater,RadeonSoftware — 다시 정지
+2026-09-24 04:53:41 revived: CPUMetricsServer,lghub_updater,RadeonSoftware — 다시 정지
+2026-09-24 04:54:41 revived: CPUMetricsServer,lghub_updater,RadeonSoftware — 다시 정지
+2026-09-24 04:55:41 revived: CPUMetricsServer,lghub_updater,RadeonSoftware — 다시 정지
+2026-09-24 04:56:41 revived: CPUMetricsServer,lghub_updater,RadeonSoftware — 다시 정지
+2026-09-24 04:57:41 revived: CPUMetricsServer,lghub_updater,RadeonSoftware — 다시 정지
+2026-09-24 04:58:41 revived: CPUMetricsServer,lghub_updater,RadeonSoftware — 다시 정지
+2026-09-24 04:59:41 revived: CPUMetricsServer,lghub_updater,RadeonSoftware — 다시 정지
+2026-09-24 05:00:41 revived: CPUMetricsServer,lghub_updater,RadeonSoftware — 다시 정지
+2026-09-24 05:01:41 revived: CPUMetricsServer,lghub_updater,RadeonSoftware — 다시 정지
+2026-09-24 05:02:41 revived: CPUMetricsServer,lghub_updater,RadeonSoftware — 다시 정지
+2026-09-24 05:03:41 revived: CPUMetricsServer,lghub_updater,RadeonSoftware — 다시 정지
+2026-09-24 05:04:41 revived: CPUMetricsServer,lghub_updater,RadeonSoftware — 다시 정지
+2026-09-24 05:05:41 revived: CPUMetricsServer,lghub_updater,RadeonSoftware — 다시 정지
+2026-09-24 05:06:41 revived: CPUMetricsServer,lghub_updater,RadeonSoftware — 다시 정지
+2026-09-24 05:07:41 revived: CPUMetricsServer,lghub_updater,RadeonSoftware — 다시 정지
+2026-09-24 05:08:41 revived: CPUMetricsServer,lghub_updater,RadeonSoftware — 다시 정지
+2026-09-24 05:09:41 revived: CPUMetricsServer,lghub_updater,RadeonSoftware — 다시 정지
+2026-09-24 05:10:41 revived: CPUMetricsServer,lghub_updater,RadeonSoftware — 다시 정지
+2026-09-24 05:11:41 revived: CPUMetricsServer,lghub_updater,RadeonSoftware — 다시 정지
+2026-09-24 05:12:41 revived: CPUMetricsServer,lghub_updater,RadeonSoftware — 다시 정지
+2026-09-24 05:13:41 revived: CPUMetricsServer,lghub_updater,RadeonSoftware — 다시 정지
+2026-09-24 05:14:41 revived: CPUMetricsServer,lghub_updater,RadeonSoftware — 다시 정지
+2026-09-24 05:14:41 capture stop 1,073,741,824 bytes
+2026-09-24 05:17:49 deep census (180s) done
+2026-09-24 05:18:20 restored — running: atieclxx,CaseDisplay,CPUMetricsServer,HWINFO,lghub_agent,lghub_system_tray,lghub_updater,LibreHardwareMonitor,logioptionsplus_agent,logioptionsplus_appbroker,logioptionsplus_updater,RadeonSoftware,TRCC,USBLCD,USBLCDNEW / watcher: 1
+2026-09-24 05:18:20 done — task unregister

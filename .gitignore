@@ -23,3 +23,5 @@ source/G80SH_삼성제출_20260920/ETW원본/
 _evidence/stacktest/*.etl
 _evidence/conntest/*.etl
 _evidence/deeptest/*.etl
+_evidence/exp-*/*.etl
+_evidence/deeptest/*.etl

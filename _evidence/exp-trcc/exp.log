@@ -1,0 +1,8 @@
+﻿2026-09-24 03:06:39 armed — TRCC/HWINFO running: HWINFO,TRCC
+2026-09-24 03:06:40 A-trcc-on start
+2026-09-24 03:36:40 A-trcc-on stop 1,037,041,664 bytes
+2026-09-24 03:36:45 TRCC stopped — remaining: 
+2026-09-24 03:36:45 B-trcc-off start
+2026-09-24 04:06:46 B-trcc-off stop 1,049,624,576 bytes
+2026-09-24 04:07:06 TRCC restarted — running: HWINFO,TRCC
+2026-09-24 04:07:06 done — task unregister

@@ -1,0 +1,12 @@
+﻿2026-09-24 05:18:34 armed — PP_ULPSDelayIntervalInMilliSeconds = 30000 (백업), 시험값 90000 / VIDEOIDLE AC = 0x00000000
+2026-09-24 05:18:34 set PP_ULPSDelayIntervalInMilliSeconds = 90000
+2026-09-24 05:18:37 GPU restart: Device restarted successfully. 
+2026-09-24 05:18:58 monitors: SAM7B0C,BBC0104,SAM79DF
+2026-09-24 05:20:58 capture start
+2026-09-24 05:50:59 capture stop 1,195,376,640 bytes
+2026-09-24 05:50:59 restored PP_ULPSDelayIntervalInMilliSeconds = 30000
+2026-09-24 05:50:59 VIDEOIDLE AC restored = 0
+2026-09-24 05:51:00 GPU restart: Device restarted successfully. 
+2026-09-24 05:51:21 monitors: SAM7B0C,BBC0104,SAM79DF
+2026-09-24 05:51:21 done — task unregister
+2026-09-24 05:51:40 [수동] VIDEOIDLE AC 900 으로 바로잡음 (스크립트가 백업을 0 으로 잘못 읽음 — 수정됨)
