@@ -21,3 +21,4 @@ source/G80SH_삼성제출_20260920/ETW원본/
 
 # xperf 스택 캡처 — 100MB 넘는 것이 있어 GitHub 에 올리지 않는다 (로컬 보관)
 _evidence/stacktest/*.etl
+_evidence/conntest/*.etl
