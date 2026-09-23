@@ -1,0 +1,9 @@
+﻿2026-09-23 22:35:54 hook start
+2026-09-23 22:35:54 A: wpr start
+2026-09-23 22:37:07 A: done
+2026-09-23 22:37:07 B: xperf start
+2026-09-23 22:38:25 B: done
+2026-09-23 22:38:25 hook end
+2026-09-23 22:42:36 C: xperf start (DxgKrnl Base+0x100 stack, PnP no stack)
+2026-09-23 22:44:20 C: done
+2026-09-23 22:48:36 cleanup: task exists = False
