@@ -1,0 +1,118 @@
+G80SH xperf 스택 캡처 2026-09-23 22:42:36 +100s (g80sh-xperf-0923-2242-dxgbase.etl, 로컬 보관)
+DxgKrnl Base+0x100 (stack) + Kernel-PnP. 티켓 17.
+
+== AMD miniport 가 보고한 연결 변경 전량 (DdiQueryConnectionChange Stop) ==
+   ConnectionStatus: 8=MonitorStatusDisconnected 10=MonitorStatusConnected  |  TargetId 260=G80SH 256=G50F
+   TimeStamp(us), ConnectionChangeId, TargetId, ConnectionStatus, TargetType, NewTargetId, Status
+   10678533, 16942, 256, 10, 10, 0, 0x00000000
+   10678556, 16943, 257, 8, 10, 0, 0x00000000
+   10678563, 16944, 258, 8, 10, 0, 0x00000000
+   10678570, 16945, 259, 8, 10, 0, 0x00000000
+   10678579, 16946, 260, 10, 10, 0, 0x00000000
+   10678591, 16947, 261, 8, 10, 0, 0x00000000
+   10678597, 16948, 262, 8, 10, 0, 0x00000000
+   10678604, 16949, 263, 8, 10, 0, 0x00000000
+   10678611, 16950, 264, 8, 5, 0, 0x00000000
+   10678621, 16951, 265, 10, 5, 0, 0x00000000
+   10678633, 16952, 266, 8, 4294967295, 0, 0x00000000
+   10678637, 0, 0, 0, 0, 0, 0x000000ff
+   21042523, 16953, 256, 10, 10, 0, 0x00000000
+   21042546, 16954, 257, 8, 10, 0, 0x00000000
+   21042553, 16955, 258, 8, 10, 0, 0x00000000
+   21042560, 16956, 259, 8, 10, 0, 0x00000000
+   21042571, 16957, 260, 10, 10, 0, 0x00000000
+   21042583, 16958, 261, 8, 10, 0, 0x00000000
+   21042590, 16959, 262, 8, 10, 0, 0x00000000
+   21042597, 16960, 263, 8, 10, 0, 0x00000000
+   21042604, 16961, 264, 8, 5, 0, 0x00000000
+   21042614, 16962, 265, 10, 5, 0, 0x00000000
+   21042627, 16963, 266, 8, 4294967295, 0, 0x00000000
+   21042631, 0, 0, 0, 0, 0, 0x000000ff
+   22436463, 16964, 260, 8, 10, 0, 0x00000000
+   22436574, 16965, 260, 10, 10, 0, 0x00000000
+   22461458, 0, 0, 0, 0, 0, 0x000000ff
+   22537076, 0, 0, 0, 0, 0, 0x000000ff
+   22650660, 16966, 260, 8, 10, 0, 0x00000000
+   22650721, 0, 0, 0, 0, 0, 0x000000ff
+   22787920, 0, 0, 0, 0, 0, 0x000000ff
+   25973689, 16967, 260, 10, 10, 0, 0x00000000
+   26219352, 0, 0, 0, 0, 0, 0x000000ff
+   26246115, 0, 0, 0, 0, 0, 0x000000ff
+   54961472, 16968, 256, 10, 10, 0, 0x00000000
+   54961510, 16969, 257, 8, 10, 0, 0x00000000
+   54961524, 16970, 258, 8, 10, 0, 0x00000000
+   54961537, 16971, 259, 8, 10, 0, 0x00000000
+   54961555, 16972, 260, 10, 10, 0, 0x00000000
+   54961578, 16973, 261, 8, 10, 0, 0x00000000
+   54961591, 16974, 262, 8, 10, 0, 0x00000000
+   54961605, 16975, 263, 8, 10, 0, 0x00000000
+   54961618, 16976, 264, 8, 5, 0, 0x00000000
+   54961638, 16977, 265, 10, 5, 0, 0x00000000
+   54961660, 16978, 266, 8, 4294967295, 0, 0x00000000
+   54961668, 0, 0, 0, 0, 0, 0x000000ff
+   67567489, 16979, 256, 10, 10, 0, 0x00000000
+   67567513, 16980, 257, 8, 10, 0, 0x00000000
+   67567520, 16981, 258, 8, 10, 0, 0x00000000
+   67567527, 16982, 259, 8, 10, 0, 0x00000000
+   67567537, 16983, 260, 10, 10, 0, 0x00000000
+   67567549, 16984, 261, 8, 10, 0, 0x00000000
+   67567556, 16985, 262, 8, 10, 0, 0x00000000
+   67567563, 16986, 263, 8, 10, 0, 0x00000000
+   67567570, 16987, 264, 8, 5, 0, 0x00000000
+   67567580, 16988, 265, 10, 5, 0, 0x00000000
+   67567592, 16989, 266, 8, 4294967295, 0, 0x00000000
+   67567597, 0, 0, 0, 0, 0, 0x000000ff
+   68978059, 16990, 260, 8, 10, 0, 0x00000000
+   68978233, 16991, 260, 10, 10, 0, 0x00000000
+   69007871, 0, 0, 0, 0, 0, 0x000000ff
+   69081687, 0, 0, 0, 0, 0, 0x000000ff
+   69231870, 16992, 260, 8, 10, 0, 0x00000000
+   69231933, 0, 0, 0, 0, 0, 0x000000ff
+   69333433, 0, 0, 0, 0, 0, 0x000000ff
+   72559082, 16993, 260, 10, 10, 0, 0x00000000
+   72804942, 0, 0, 0, 0, 0, 0x000000ff
+   72834531, 0, 0, 0, 0, 0, 0x000000ff
+   97776630, 16994, 256, 10, 10, 0, 0x00000000
+   97776654, 16995, 257, 8, 10, 0, 0x00000000
+   97776661, 16996, 258, 8, 10, 0, 0x00000000
+   97776668, 16997, 259, 8, 10, 0, 0x00000000
+   97776678, 16998, 260, 10, 10, 0, 0x00000000
+   97776691, 16999, 261, 8, 10, 0, 0x00000000
+   97776698, 17000, 262, 8, 10, 0, 0x00000000
+   97776705, 17001, 263, 8, 10, 0, 0x00000000
+   97776712, 17002, 264, 8, 5, 0, 0x00000000
+   97776723, 17003, 265, 10, 5, 0, 0x00000000
+   97776735, 17004, 266, 8, 4294967295, 0, 0x00000000
+   97776739, 0, 0, 0, 0, 0, 0x000000ff
+
+== GPU 재열거 요청(Kernel-PnP 810) 시각 ==
+   22436667
+   22650749
+   26219390
+   68978295
+   69231976
+   72804982
+
+== Q1 직전 디스플레이 경로 스택 (두 사이클) ==
+========== Q1 22436667
+     -0.3ms tid= 12300 FlushScheduler/win:Info                       | dxgkrnl.sys!DxgkQueryConnectionChanges < dxgkrnl.sys!DpiIndicateConnectorChangeWorkItem
+     -0.2ms tid= 12300 FlushPresentReferencesAndDisableOverlays/win: | dxgkrnl.sys!DxgkQueryConnectionChanges < dxgkrnl.sys!DpiIndicateConnectorChangeWorkItem
+     -0.2ms tid= 12300 DdiQueryConnectionChange/win:Start            | dxgkrnl.sys!DpiDxgkDdiQueryConnectionChange < dxgkrnl.sys!DxgkQueryConnectionChanges < dxgkrnl.sys!DpiIndicateConnectorChangeWorkItem
+     -0.2ms tid= 12300 DdiQueryConnectionChange/win:Stop             | dxgkrnl.sys!DpiDxgkDdiQueryConnectionChange < dxgkrnl.sys!DxgkQueryConnectionChanges < dxgkrnl.sys!DpiIndicateConnectorChangeWorkItem
+     -0.2ms tid= 12300 InvalidateModeCache/win:Info                  | dxgkrnl.sys!ADAPTER_DISPLAY::InvalidateActiveVidPnDisplayModeListCache < dxgkrnl.sys!ADAPTER_DISPLAY::OnMonitorConnectionChanged < dxgkrnl.sys!VIDPN_MGR::OnMonitorConnectionChanged < dxgkrnl.sys!VIDPN_MGR::_MonitorEventHandler < dxgkrnl.sys!MONITOR_MGR::_IssueMonitorEvent < dxgkrnl.sys!MONITOR_MGR::
+     -0.1ms tid= 12300 DdiQueryDeviceDescriptor/win:Start            | dxgkrnl.sys!DpiDxgkDdiQueryDeviceDescriptor < dxgkrnl.sys!DpiPdoGetDeviceDescriptor < dxgkrnl.sys!DpiPdoHandleChildConnectionChange < dxgkrnl.sys!DxgkQueryConnectionChanges < dxgkrnl.sys!DpiIndicateConnectorChangeWorkItem
+     -0.1ms tid= 12300 DdiQueryDeviceDescriptor/win:Stop             | dxgkrnl.sys!DpiDxgkDdiQueryDeviceDescriptor < dxgkrnl.sys!DpiPdoGetDeviceDescriptor < dxgkrnl.sys!DpiPdoHandleChildConnectionChange < dxgkrnl.sys!DxgkQueryConnectionChanges < dxgkrnl.sys!DpiIndicateConnectorChangeWorkItem
+     -0.0ms tid= 12300 DdiQueryDeviceDescriptor/win:Start            | dxgkrnl.sys!DpiDxgkDdiQueryDeviceDescriptor < dxgkrnl.sys!DpiGetMonitorDescriptor < dxgkrnl.sys!KernelDriver::GetMonitorDescriptor < dxgkrnl.sys!DxgMonitor::MonitorDescriptorState::OnInitializePhysicalMonitor < dxgkrnl.sys!DXGMONITOR::_InitializeMonitorWithDriver < dxgkrnl.sys!MONITOR_MGR::_CreatePh
+     -0.0ms tid= 12300 DdiQueryDeviceDescriptor/win:Stop             | dxgkrnl.sys!DpiDxgkDdiQueryDeviceDescriptor < dxgkrnl.sys!DpiGetMonitorDescriptor < dxgkrnl.sys!KernelDriver::GetMonitorDescriptor < dxgkrnl.sys!DxgMonitor::MonitorDescriptorState::OnInitializePhysicalMonitor < dxgkrnl.sys!DXGMONITOR::_InitializeMonitorWithDriver < dxgkrnl.sys!MONITOR_MGR::_CreatePh
+     +0.0ms tid= 10272 ReenumerateDeviceTree/win:Info                | 
+========== Q1 68978295
+     -0.3ms tid=  9288 FlushScheduler/win:Info                       | dxgkrnl.sys!DxgkQueryConnectionChanges < dxgkrnl.sys!DpiIndicateConnectorChangeWorkItem
+     -0.3ms tid=  9288 FlushPresentReferencesAndDisableOverlays/win: | dxgkrnl.sys!DxgkQueryConnectionChanges < dxgkrnl.sys!DpiIndicateConnectorChangeWorkItem
+     -0.3ms tid=  9288 DdiQueryConnectionChange/win:Start            | dxgkrnl.sys!DpiDxgkDdiQueryConnectionChange < dxgkrnl.sys!DxgkQueryConnectionChanges < dxgkrnl.sys!DpiIndicateConnectorChangeWorkItem
+     -0.2ms tid=  9288 DdiQueryConnectionChange/win:Stop             | dxgkrnl.sys!DpiDxgkDdiQueryConnectionChange < dxgkrnl.sys!DxgkQueryConnectionChanges < dxgkrnl.sys!DpiIndicateConnectorChangeWorkItem
+     -0.2ms tid=  9288 InvalidateModeCache/win:Info                  | dxgkrnl.sys!ADAPTER_DISPLAY::InvalidateActiveVidPnDisplayModeListCache < dxgkrnl.sys!ADAPTER_DISPLAY::OnMonitorConnectionChanged < dxgkrnl.sys!VIDPN_MGR::OnMonitorConnectionChanged < dxgkrnl.sys!VIDPN_MGR::_MonitorEventHandler < dxgkrnl.sys!MONITOR_MGR::_IssueMonitorEvent < dxgkrnl.sys!MONITOR_MGR::
+     -0.1ms tid=  9288 DdiQueryDeviceDescriptor/win:Start            | dxgkrnl.sys!DpiDxgkDdiQueryDeviceDescriptor < dxgkrnl.sys!DpiPdoGetDeviceDescriptor < dxgkrnl.sys!DpiPdoHandleChildConnectionChange < dxgkrnl.sys!DxgkQueryConnectionChanges < dxgkrnl.sys!DpiIndicateConnectorChangeWorkItem
+     -0.0ms tid=  9288 DdiQueryDeviceDescriptor/win:Stop             | dxgkrnl.sys!DpiDxgkDdiQueryDeviceDescriptor < dxgkrnl.sys!DpiPdoGetDeviceDescriptor < dxgkrnl.sys!DpiPdoHandleChildConnectionChange < dxgkrnl.sys!DxgkQueryConnectionChanges < dxgkrnl.sys!DpiIndicateConnectorChangeWorkItem
+     +0.0ms tid=  9252 ReenumerateDeviceTree/win:Info                | 
+     +0.1ms tid=  9288 DdiQueryDeviceDescriptor/win:Start            | dxgkrnl.sys!DpiDxgkDdiQueryDeviceDescriptor < dxgkrnl.sys!DpiGetMonitorDescriptor < dxgkrnl.sys!KernelDriver::GetMonitorDescriptor < dxgkrnl.sys!DxgMonitor::MonitorDescriptorState::OnInitializePhysicalMonitor < dxgkrnl.sys!DXGMONITOR::_InitializeMonitorWithDriver < dxgkrnl.sys!MONITOR_MGR::_CreatePh
+     +1.0ms tid=  9288 DdiQueryDeviceDescriptor/win:Stop             | dxgkrnl.sys!DpiDxgkDdiQueryDeviceDescriptor < dxgkrnl.sys!DpiGetMonitorDescriptor < dxgkrnl.sys!KernelDriver::GetMonitorDescriptor < dxgkrnl.sys!DxgMonitor::MonitorDescriptorState::OnInitializePhysicalMonitor < dxgkrnl.sys!DXGMONITOR::_InitializeMonitorWithDriver < dxgkrnl.sys!MONITOR_MGR::_CreatePh

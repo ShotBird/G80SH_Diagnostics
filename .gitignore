@@ -25,3 +25,5 @@ _evidence/conntest/*.etl
 _evidence/deeptest/*.etl
 _evidence/exp-*/*.etl
 _evidence/deeptest/*.etl
+source/G80SH_삼성제출_20260924/로그/
+source/G80SH_삼성제출_20260924/ETW원본/*.etl
