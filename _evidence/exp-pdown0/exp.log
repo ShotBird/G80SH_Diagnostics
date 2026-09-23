@@ -1,0 +1,6 @@
+﻿2026-09-24 06:28:38 armed — PP_GPUPowerDownEnabled = 1 (백업), 시험값 0 / VIDEOIDLE AC = 0x00000384
+2026-09-24 06:28:38 set PP_GPUPowerDownEnabled = 0
+2026-09-24 06:28:40 GPU restart: Device restarted successfully. 
+2026-09-24 06:29:01 monitors: SAM7B0C,BBC0104,SAM79DF
+2026-09-24 06:31:01 capture start
+2026-09-24 06:49:42 [수동] 06:35 Windows 업데이트 재시작(KB5124010, MoUsoCoreWorker/TrustedInstaller 1074 ×3)으로 시험 중단 → 원복: PP_GPUPowerDownEnabled = 1, VIDEOIDLE AC 900 (GPU 재시작 안 함 — 다음 재부팅에 적용)

@@ -521,3 +521,9 @@
 2026-09-24 06:26:01 [decode] kept 1,696
 2026-09-24 06:26:04 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0924-0623-32.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0924-0623-32.csv
 2026-09-24 06:26:04 cooling 30m
+2026-09-24 06:36:26 auto rev.2 armed (captures=0 cool=30m post=150s)
+2026-09-24 06:36:26 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-24 06:37:27 auto rev.2 armed (captures=0 cool=30m post=150s)
+2026-09-24 06:37:27 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-24 06:38:15 auto rev.2 armed (captures=0 cool=30m post=150s)
+2026-09-24 06:38:15 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
