@@ -118,3 +118,296 @@
 2026-09-20 19:20:49 [decode] kept 1,768
 2026-09-20 19:20:52 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0920-1918-6.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0920-1918-6.csv
 2026-09-20 19:20:52 cooling 30m
+2026-09-20 19:50:52 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-21 18:11:39 auto rev.2 armed (captures=0 cool=30m post=150s)
+2026-09-21 18:11:39 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-21 20:05:33 TRIGGER -> +150s 더 담고 덤프 (#1 tag=0921-2005-1)
+2026-09-21 20:08:03 etl kept g80sh-dxg-0921-2005-1.etl (33,816,576 bytes)
+2026-09-21 20:09:04 [decode] decoded 318,978 events from g80sh-dxg-0921-2005-1.etl
+2026-09-21 20:09:06 [decode] kept 4,452
+2026-09-21 20:09:13 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0921-2005-1.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0921-2005-1.csv
+2026-09-21 20:09:13 cooling 30m
+2026-09-21 20:39:14 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-21 20:45:44 TRIGGER -> +150s 더 담고 덤프 (#2 tag=0921-2045-2)
+2026-09-21 20:48:14 etl kept g80sh-dxg-0921-2045-2.etl (4,718,592 bytes)
+2026-09-21 20:48:22 [decode] decoded 35,895 events from g80sh-dxg-0921-2045-2.etl
+2026-09-21 20:48:22 [decode] kept 1,227
+2026-09-21 20:48:24 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0921-2045-2.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0921-2045-2.csv
+2026-09-21 20:48:24 cooling 30m
+2026-09-21 21:18:24 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-21 21:18:39 TRIGGER -> +150s 더 담고 덤프 (#3 tag=0921-2118-3)
+2026-09-21 21:21:09 etl kept g80sh-dxg-0921-2118-3.etl (3,670,016 bytes)
+2026-09-21 21:21:14 [decode] decoded 26,929 events from g80sh-dxg-0921-2118-3.etl
+2026-09-21 21:21:14 [decode] kept 1,410
+2026-09-21 21:21:16 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0921-2118-3.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0921-2118-3.csv
+2026-09-21 21:21:16 cooling 30m
+2026-09-21 21:51:17 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-21 21:51:32 TRIGGER -> +150s 더 담고 덤프 (#4 tag=0921-2151-4)
+2026-09-21 21:54:02 etl kept g80sh-dxg-0921-2151-4.etl (2,883,584 bytes)
+2026-09-21 21:54:06 [decode] decoded 20,064 events from g80sh-dxg-0921-2151-4.etl
+2026-09-21 21:54:06 [decode] kept 908
+2026-09-21 21:54:08 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0921-2151-4.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0921-2151-4.csv
+2026-09-21 21:54:08 cooling 30m
+2026-09-21 22:24:08 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-21 22:24:23 TRIGGER -> +150s 더 담고 덤프 (#5 tag=0921-2224-5)
+2026-09-21 22:26:53 etl kept g80sh-dxg-0921-2224-5.etl (3,145,728 bytes)
+2026-09-21 22:26:57 [decode] decoded 21,665 events from g80sh-dxg-0921-2224-5.etl
+2026-09-21 22:26:57 [decode] kept 1,048
+2026-09-21 22:26:59 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0921-2224-5.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0921-2224-5.csv
+2026-09-21 22:26:59 cooling 30m
+2026-09-21 22:56:59 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-21 22:57:29 TRIGGER -> +150s 더 담고 덤프 (#6 tag=0921-2257-6)
+2026-09-21 22:59:59 etl kept g80sh-dxg-0921-2257-6.etl (3,014,656 bytes)
+2026-09-21 23:00:04 [decode] decoded 22,184 events from g80sh-dxg-0921-2257-6.etl
+2026-09-21 23:00:04 [decode] kept 1,058
+2026-09-21 23:00:05 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0921-2257-6.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0921-2257-6.csv
+2026-09-21 23:00:05 cooling 30m
+2026-09-21 23:30:05 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-21 23:30:20 TRIGGER -> +150s 더 담고 덤프 (#7 tag=0921-2330-7)
+2026-09-21 23:32:50 etl kept g80sh-dxg-0921-2330-7.etl (2,621,440 bytes)
+2026-09-21 23:32:54 [decode] decoded 16,530 events from g80sh-dxg-0921-2330-7.etl
+2026-09-21 23:32:54 [decode] kept 755
+2026-09-21 23:32:55 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0921-2330-7.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0921-2330-7.csv
+2026-09-21 23:32:55 cooling 30m
+2026-09-22 00:02:55 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-22 00:03:10 TRIGGER -> +150s 더 담고 덤프 (#8 tag=0922-0003-8)
+2026-09-22 00:05:40 etl kept g80sh-dxg-0922-0003-8.etl (3,801,088 bytes)
+2026-09-22 00:05:46 [decode] decoded 26,915 events from g80sh-dxg-0922-0003-8.etl
+2026-09-22 00:05:46 [decode] kept 1,430
+2026-09-22 00:05:48 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0922-0003-8.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0922-0003-8.csv
+2026-09-22 00:05:48 cooling 30m
+2026-09-22 00:35:49 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-22 00:36:04 TRIGGER -> +150s 더 담고 덤프 (#9 tag=0922-0036-9)
+2026-09-22 00:38:34 etl kept g80sh-dxg-0922-0036-9.etl (2,883,584 bytes)
+2026-09-22 00:38:39 [decode] decoded 21,636 events from g80sh-dxg-0922-0036-9.etl
+2026-09-22 00:38:39 [decode] kept 1,046
+2026-09-22 00:38:41 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0922-0036-9.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0922-0036-9.csv
+2026-09-22 00:38:41 cooling 30m
+2026-09-22 09:23:11 auto rev.2 armed (captures=0 cool=30m post=150s)
+2026-09-22 09:23:11 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-22 09:48:58 TRIGGER -> +150s 더 담고 덤프 (#1 tag=0922-0948-1)
+2026-09-22 09:51:28 etl kept g80sh-dxg-0922-0948-1.etl (14,942,208 bytes)
+2026-09-22 09:51:54 [decode] decoded 128,599 events from g80sh-dxg-0922-0948-1.etl
+2026-09-22 09:51:54 [decode] kept 4,203
+2026-09-22 09:52:01 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0922-0948-1.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0922-0948-1.csv
+2026-09-22 09:52:01 cooling 30m
+2026-09-22 10:22:01 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-22 10:22:16 TRIGGER -> +150s 더 담고 덤프 (#2 tag=0922-1022-2)
+2026-09-22 10:24:46 etl kept g80sh-dxg-0922-1022-2.etl (2,883,584 bytes)
+2026-09-22 10:24:51 [decode] decoded 22,360 events from g80sh-dxg-0922-1022-2.etl
+2026-09-22 10:24:51 [decode] kept 1,020
+2026-09-22 10:24:52 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0922-1022-2.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0922-1022-2.csv
+2026-09-22 10:24:52 cooling 30m
+2026-09-22 10:54:52 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-22 10:55:07 TRIGGER -> +150s 더 담고 덤프 (#3 tag=0922-1055-3)
+2026-09-22 10:57:37 etl kept g80sh-dxg-0922-1055-3.etl (3,801,088 bytes)
+2026-09-22 10:57:43 [decode] decoded 27,785 events from g80sh-dxg-0922-1055-3.etl
+2026-09-22 10:57:43 [decode] kept 1,428
+2026-09-22 10:57:46 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0922-1055-3.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0922-1055-3.csv
+2026-09-22 10:57:46 cooling 30m
+2026-09-22 11:27:46 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-22 11:28:16 TRIGGER -> +150s 더 담고 덤프 (#4 tag=0922-1128-4)
+2026-09-22 11:30:46 etl kept g80sh-dxg-0922-1128-4.etl (3,801,088 bytes)
+2026-09-22 11:30:52 [decode] decoded 28,255 events from g80sh-dxg-0922-1128-4.etl
+2026-09-22 11:30:52 [decode] kept 1,382
+2026-09-22 11:30:54 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0922-1128-4.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0922-1128-4.csv
+2026-09-22 11:30:54 cooling 30m
+2026-09-22 12:00:54 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-22 12:01:09 TRIGGER -> +150s 더 담고 덤프 (#5 tag=0922-1201-5)
+2026-09-22 12:03:39 etl kept g80sh-dxg-0922-1201-5.etl (3,932,160 bytes)
+2026-09-22 12:03:45 [decode] decoded 27,771 events from g80sh-dxg-0922-1201-5.etl
+2026-09-22 12:03:45 [decode] kept 1,354
+2026-09-22 12:03:47 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0922-1201-5.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0922-1201-5.csv
+2026-09-22 12:03:47 cooling 30m
+2026-09-22 12:33:47 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-22 12:34:17 TRIGGER -> +150s 더 담고 덤프 (#6 tag=0922-1234-6)
+2026-09-22 12:36:47 etl kept g80sh-dxg-0922-1234-6.etl (3,538,944 bytes)
+2026-09-22 12:36:53 [decode] decoded 28,295 events from g80sh-dxg-0922-1234-6.etl
+2026-09-22 12:36:53 [decode] kept 1,376
+2026-09-22 12:36:55 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0922-1234-6.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0922-1234-6.csv
+2026-09-22 12:36:55 cooling 30m
+2026-09-22 13:06:55 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-22 13:07:10 TRIGGER -> +150s 더 담고 덤프 (#7 tag=0922-1307-7)
+2026-09-22 13:09:40 etl kept g80sh-dxg-0922-1307-7.etl (3,670,016 bytes)
+2026-09-22 13:09:46 [decode] decoded 27,864 events from g80sh-dxg-0922-1307-7.etl
+2026-09-22 13:09:46 [decode] kept 1,467
+2026-09-22 13:09:49 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0922-1307-7.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0922-1307-7.csv
+2026-09-22 13:09:49 cooling 30m
+2026-09-22 13:39:49 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-22 13:40:19 TRIGGER -> +150s 더 담고 덤프 (#8 tag=0922-1340-8)
+2026-09-22 13:42:49 etl kept g80sh-dxg-0922-1340-8.etl (3,801,088 bytes)
+2026-09-22 13:42:55 [decode] decoded 28,173 events from g80sh-dxg-0922-1340-8.etl
+2026-09-22 13:42:55 [decode] kept 1,374
+2026-09-22 13:42:57 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0922-1340-8.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0922-1340-8.csv
+2026-09-22 13:42:57 cooling 30m
+2026-09-22 14:12:57 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-22 14:13:12 TRIGGER -> +150s 더 담고 덤프 (#9 tag=0922-1413-9)
+2026-09-22 14:15:42 etl kept g80sh-dxg-0922-1413-9.etl (3,670,016 bytes)
+2026-09-22 14:15:47 [decode] decoded 27,609 events from g80sh-dxg-0922-1413-9.etl
+2026-09-22 14:15:47 [decode] kept 1,346
+2026-09-22 14:15:49 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0922-1413-9.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0922-1413-9.csv
+2026-09-22 14:15:49 cooling 30m
+2026-09-22 14:45:49 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-22 14:46:04 TRIGGER -> +150s 더 담고 덤프 (#10 tag=0922-1446-10)
+2026-09-22 14:48:34 etl kept g80sh-dxg-0922-1446-10.etl (3,801,088 bytes)
+2026-09-22 14:48:40 [decode] decoded 27,581 events from g80sh-dxg-0922-1446-10.etl
+2026-09-22 14:48:40 [decode] kept 1,366
+2026-09-22 14:48:42 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0922-1446-10.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0922-1446-10.csv
+2026-09-22 14:48:42 cooling 30m
+2026-09-22 15:18:42 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-22 15:19:13 TRIGGER -> +150s 더 담고 덤프 (#11 tag=0922-1519-11)
+2026-09-22 15:21:43 etl kept g80sh-dxg-0922-1519-11.etl (3,670,016 bytes)
+2026-09-22 15:21:48 [decode] decoded 28,019 events from g80sh-dxg-0922-1519-11.etl
+2026-09-22 15:21:48 [decode] kept 1,330
+2026-09-22 15:21:50 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0922-1519-11.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0922-1519-11.csv
+2026-09-22 15:21:50 cooling 30m
+2026-09-22 15:51:50 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-22 16:13:07 TRIGGER -> +150s 더 담고 덤프 (#12 tag=0922-1613-12)
+2026-09-22 16:15:37 etl kept g80sh-dxg-0922-1613-12.etl (9,699,328 bytes)
+2026-09-22 16:15:53 [decode] decoded 83,618 events from g80sh-dxg-0922-1613-12.etl
+2026-09-22 16:15:53 [decode] kept 1,756
+2026-09-22 16:15:56 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0922-1613-12.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0922-1613-12.csv
+2026-09-22 16:15:56 cooling 30m
+2026-09-22 16:45:56 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-22 16:46:11 TRIGGER -> +150s 더 담고 덤프 (#13 tag=0922-1646-13)
+2026-09-22 16:48:41 etl kept g80sh-dxg-0922-1646-13.etl (4,063,232 bytes)
+2026-09-22 16:48:47 [decode] decoded 27,837 events from g80sh-dxg-0922-1646-13.etl
+2026-09-22 16:48:47 [decode] kept 1,300
+2026-09-22 16:48:49 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0922-1646-13.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0922-1646-13.csv
+2026-09-22 16:48:49 cooling 30m
+2026-09-22 17:18:49 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-22 17:19:04 TRIGGER -> +150s 더 담고 덤프 (#14 tag=0922-1719-14)
+2026-09-22 17:21:34 etl kept g80sh-dxg-0922-1719-14.etl (3,801,088 bytes)
+2026-09-22 17:21:40 [decode] decoded 25,496 events from g80sh-dxg-0922-1719-14.etl
+2026-09-22 17:21:40 [decode] kept 1,056
+2026-09-22 17:21:42 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0922-1719-14.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0922-1719-14.csv
+2026-09-22 17:21:42 cooling 30m
+2026-09-22 17:51:42 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-22 17:52:12 TRIGGER -> +150s 더 담고 덤프 (#15 tag=0922-1752-15)
+2026-09-22 17:54:42 etl kept g80sh-dxg-0922-1752-15.etl (4,456,448 bytes)
+2026-09-22 17:54:49 [decode] decoded 31,481 events from g80sh-dxg-0922-1752-15.etl
+2026-09-22 17:54:49 [decode] kept 1,394
+2026-09-22 17:54:51 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0922-1752-15.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0922-1752-15.csv
+2026-09-22 17:54:51 cooling 30m
+2026-09-22 18:24:51 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-22 18:25:21 TRIGGER -> +150s 더 담고 덤프 (#16 tag=0922-1825-16)
+2026-09-22 18:27:51 etl kept g80sh-dxg-0922-1825-16.etl (4,325,376 bytes)
+2026-09-22 18:27:58 [decode] decoded 31,249 events from g80sh-dxg-0922-1825-16.etl
+2026-09-22 18:27:58 [decode] kept 1,376
+2026-09-22 18:28:00 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0922-1825-16.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0922-1825-16.csv
+2026-09-22 18:28:00 cooling 30m
+2026-09-23 08:41:45 auto rev.2 armed (captures=0 cool=30m post=150s)
+2026-09-23 08:41:45 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-23 09:14:33 TRIGGER -> +150s 더 담고 덤프 (#1 tag=0923-0914-1)
+2026-09-23 09:17:03 etl kept g80sh-dxg-0923-0914-1.etl (17,956,864 bytes)
+2026-09-23 09:17:33 [decode] decoded 162,628 events from g80sh-dxg-0923-0914-1.etl
+2026-09-23 09:17:34 [decode] kept 2,841
+2026-09-23 09:17:39 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0923-0914-1.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0923-0914-1.csv
+2026-09-23 09:17:39 cooling 30m
+2026-09-23 09:47:39 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-23 09:47:54 TRIGGER -> +150s 더 담고 덤프 (#2 tag=0923-0947-2)
+2026-09-23 09:50:24 etl kept g80sh-dxg-0923-0947-2.etl (3,670,016 bytes)
+2026-09-23 09:50:29 [decode] decoded 27,695 events from g80sh-dxg-0923-0947-2.etl
+2026-09-23 09:50:30 [decode] kept 1,392
+2026-09-23 09:50:32 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0923-0947-2.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0923-0947-2.csv
+2026-09-23 09:50:32 cooling 30m
+2026-09-23 10:20:32 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-23 10:20:47 TRIGGER -> +150s 더 담고 덤프 (#3 tag=0923-1020-3)
+2026-09-23 10:23:17 etl kept g80sh-dxg-0923-1020-3.etl (3,670,016 bytes)
+2026-09-23 10:23:23 [decode] decoded 27,792 events from g80sh-dxg-0923-1020-3.etl
+2026-09-23 10:23:23 [decode] kept 1,430
+2026-09-23 10:23:25 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0923-1020-3.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0923-1020-3.csv
+2026-09-23 10:23:25 cooling 30m
+2026-09-23 10:53:25 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-23 10:53:40 TRIGGER -> +150s 더 담고 덤프 (#4 tag=0923-1053-4)
+2026-09-23 10:56:10 etl kept g80sh-dxg-0923-1053-4.etl (3,538,944 bytes)
+2026-09-23 10:56:16 [decode] decoded 27,763 events from g80sh-dxg-0923-1053-4.etl
+2026-09-23 10:56:16 [decode] kept 1,376
+2026-09-23 10:56:18 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0923-1053-4.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0923-1053-4.csv
+2026-09-23 10:56:18 cooling 30m
+2026-09-23 11:26:18 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-23 11:26:33 TRIGGER -> +150s 더 담고 덤프 (#5 tag=0923-1126-5)
+2026-09-23 11:29:03 etl kept g80sh-dxg-0923-1126-5.etl (3,276,800 bytes)
+2026-09-23 11:29:08 [decode] decoded 22,396 events from g80sh-dxg-0923-1126-5.etl
+2026-09-23 11:29:08 [decode] kept 1,106
+2026-09-23 11:29:10 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0923-1126-5.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0923-1126-5.csv
+2026-09-23 11:29:10 cooling 30m
+2026-09-23 11:59:10 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-23 11:59:25 TRIGGER -> +150s 더 담고 덤프 (#6 tag=0923-1159-6)
+2026-09-23 12:01:55 etl kept g80sh-dxg-0923-1159-6.etl (3,276,800 bytes)
+2026-09-23 12:02:00 [decode] decoded 23,790 events from g80sh-dxg-0923-1159-6.etl
+2026-09-23 12:02:00 [decode] kept 1,156
+2026-09-23 12:02:02 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0923-1159-6.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0923-1159-6.csv
+2026-09-23 12:02:02 cooling 30m
+2026-09-23 12:32:02 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-23 12:32:17 TRIGGER -> +150s 더 담고 덤프 (#7 tag=0923-1232-7)
+2026-09-23 12:34:47 etl kept g80sh-dxg-0923-1232-7.etl (3,670,016 bytes)
+2026-09-23 12:34:53 [decode] decoded 27,822 events from g80sh-dxg-0923-1232-7.etl
+2026-09-23 12:34:53 [decode] kept 1,497
+2026-09-23 12:34:55 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0923-1232-7.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0923-1232-7.csv
+2026-09-23 12:34:55 cooling 30m
+2026-09-23 13:04:55 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-23 13:05:10 TRIGGER -> +150s 더 담고 덤프 (#8 tag=0923-1305-8)
+2026-09-23 13:07:40 etl kept g80sh-dxg-0923-1305-8.etl (3,670,016 bytes)
+2026-09-23 13:07:46 [decode] decoded 27,745 events from g80sh-dxg-0923-1305-8.etl
+2026-09-23 13:07:46 [decode] kept 1,378
+2026-09-23 13:07:49 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0923-1305-8.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0923-1305-8.csv
+2026-09-23 13:07:49 cooling 30m
+2026-09-23 13:37:49 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-23 13:38:04 TRIGGER -> +150s 더 담고 덤프 (#9 tag=0923-1338-9)
+2026-09-23 13:40:34 etl kept g80sh-dxg-0923-1338-9.etl (3,276,800 bytes)
+2026-09-23 13:40:38 [decode] decoded 22,162 events from g80sh-dxg-0923-1338-9.etl
+2026-09-23 13:40:39 [decode] kept 1,018
+2026-09-23 13:40:41 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0923-1338-9.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0923-1338-9.csv
+2026-09-23 13:40:41 cooling 30m
+2026-09-23 14:10:41 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-23 14:10:56 TRIGGER -> +150s 더 담고 덤프 (#10 tag=0923-1410-10)
+2026-09-23 14:13:26 etl kept g80sh-dxg-0923-1410-10.etl (3,014,656 bytes)
+2026-09-23 14:13:31 [decode] decoded 22,314 events from g80sh-dxg-0923-1410-10.etl
+2026-09-23 14:13:31 [decode] kept 1,038
+2026-09-23 14:13:33 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0923-1410-10.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0923-1410-10.csv
+2026-09-23 14:13:33 cooling 30m
+2026-09-23 14:43:33 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-23 14:43:48 TRIGGER -> +150s 더 담고 덤프 (#11 tag=0923-1443-11)
+2026-09-23 14:46:18 etl kept g80sh-dxg-0923-1443-11.etl (3,145,728 bytes)
+2026-09-23 14:46:22 [decode] decoded 22,274 events from g80sh-dxg-0923-1443-11.etl
+2026-09-23 14:46:23 [decode] kept 1,036
+2026-09-23 14:46:24 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0923-1443-11.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0923-1443-11.csv
+2026-09-23 14:46:24 cooling 30m
+2026-09-23 15:16:24 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-23 15:16:39 TRIGGER -> +150s 더 담고 덤프 (#12 tag=0923-1516-12)
+2026-09-23 15:19:09 etl kept g80sh-dxg-0923-1516-12.etl (3,670,016 bytes)
+2026-09-23 15:19:15 [decode] decoded 27,648 events from g80sh-dxg-0923-1516-12.etl
+2026-09-23 15:19:15 [decode] kept 1,407
+2026-09-23 15:19:18 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0923-1516-12.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0923-1516-12.csv
+2026-09-23 15:19:18 cooling 30m
+2026-09-23 15:49:18 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-23 15:49:33 TRIGGER -> +150s 더 담고 덤프 (#13 tag=0923-1549-13)
+2026-09-23 15:52:03 etl kept g80sh-dxg-0923-1549-13.etl (3,670,016 bytes)
+2026-09-23 15:52:08 [decode] decoded 27,519 events from g80sh-dxg-0923-1549-13.etl
+2026-09-23 15:52:09 [decode] kept 1,330
+2026-09-23 15:52:10 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0923-1549-13.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0923-1549-13.csv
+2026-09-23 15:52:10 cooling 30m
+2026-09-23 16:22:11 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-23 16:22:26 TRIGGER -> +150s 더 담고 덤프 (#14 tag=0923-1622-14)
+2026-09-23 16:24:56 etl kept g80sh-dxg-0923-1622-14.etl (3,276,800 bytes)
+2026-09-23 16:25:00 [decode] decoded 22,194 events from g80sh-dxg-0923-1622-14.etl
+2026-09-23 16:25:01 [decode] kept 1,028
+2026-09-23 16:25:02 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0923-1622-14.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0923-1622-14.csv
+2026-09-23 16:25:02 cooling 30m
+2026-09-23 16:55:02 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-23 16:55:17 TRIGGER -> +150s 더 담고 덤프 (#15 tag=0923-1655-15)
+2026-09-23 16:57:47 etl kept g80sh-dxg-0923-1655-15.etl (3,276,800 bytes)
+2026-09-23 16:57:52 [decode] decoded 22,278 events from g80sh-dxg-0923-1655-15.etl
+2026-09-23 16:57:52 [decode] kept 1,056
+2026-09-23 16:57:54 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0923-1655-15.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0923-1655-15.csv
+2026-09-23 16:57:54 cooling 30m
+2026-09-23 17:27:54 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-23 21:19:00 TRIGGER -> +150s 더 담고 덤프 (#16 tag=0923-2119-16)
+2026-09-23 21:21:30 etl kept g80sh-dxg-0923-2119-16.etl (55,836,672 bytes)
+2026-09-23 21:23:18 [decode] decoded 550,969 events from g80sh-dxg-0923-2119-16.etl
+2026-09-23 21:23:22 [decode] kept 3,640
+2026-09-23 21:23:30 [decode] agg -> C:\dev\PC\_evidence\g80sh-dxg-agg-0923-2119-16.txt / csv -> C:\dev\PC\_evidence\g80sh-dxg-0923-2119-16.csv
+2026-09-23 21:23:30 cooling 30m
+2026-09-23 21:53:30 session running (circular 512MB) -> C:\dev\PC\_evidence\g80sh-live.etl
+2026-09-23 21:53:45 TRIGGER -> +150s 더 담고 덤프 (#17 tag=0923-2153-17)

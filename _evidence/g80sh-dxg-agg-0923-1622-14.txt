@@ -1,0 +1,1266 @@
+﻿G80SH ETW 0923-1622-14   g80sh-dxg-0923-1622-14.etl
+범위: 16:22:39.689 ~ 16:24:23.964
+
+== provider/id 분포 ==
+DxgKrnl 10011                                         842
+Kernel-PnP 222                                         87
+Kernel-PnP 220                                         87
+Kernel-PnP 808                                          6
+Kernel-PnP 1010                                         6
+
+== SAM7B0C 1010: 3 건 ==
+
+-- 첫 3건은 화면 꺼짐 전환 구간을 포함해 넓게(-60초), 나머지는 -6초 --
+
+---- #1  1010 @ 16:22:39.726   (-60s 구간, 190건) ----
+       -38ms  Kernel-PnP               220  Begin querying bus relations for device PCI\VEN_1002&DEV_7550&SUBSYS_E4891DA2&REV_C0\6&8916a45&0&00000009
+       -38ms  DxgKrnl                10011  
+         0ms  DxgKrnl                10011  
+         0ms  Kernel-PnP               222  End querying bus relations for device PCI\VEN_1002&DEV_7550&SUBSYS_E4891DA2&REV_C0\6&8916a45&0&00000009
+         0ms  DxgKrnl                10011  
+         0ms  DxgKrnl                10011  
+         0ms  Kernel-PnP              1010  버스에 누락 된 것으로 보고 된 장치 DISPLAY\SAM7B0C\7&16b8ddb4&0&UID260이 (가) 제거 되었습니다. 제거 된 장치 수 개수: 1
+         0ms  DxgKrnl                10011  
+         0ms  DxgKrnl                10011  
+        +1ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDCP&7&16b8ddb4&0
+        +1ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDCP&7&16b8ddb4&0
+        +1ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDFDANS&7&16b8ddb4&0
+        +1ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDFDANS&7&16b8ddb4&0
+        +1ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDOCL&7&16b8ddb4&0
+        +1ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDOCL&7&16b8ddb4&0
+        +1ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDOGL&7&16b8ddb4&0
+        +1ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDOGL&7&16b8ddb4&0
+        +1ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDVLK&7&16b8ddb4&0
+        +1ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDVLK&7&16b8ddb4&0
+        +1ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDWIN&7&16b8ddb4&0
+        +1ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDWIN&7&16b8ddb4&0
+        +1ms  Kernel-PnP               220  Begin querying bus relations for device DISPLAY\BBC0104\7&16b8ddb4&0&UID265
+        +1ms  Kernel-PnP               222  End querying bus relations for device DISPLAY\BBC0104\7&16b8ddb4&0&UID265
+        +1ms  Kernel-PnP               220  Begin querying bus relations for device DISPLAY\SAM79DF\7&16b8ddb4&0&UID256
+        +1ms  Kernel-PnP               222  End querying bus relations for device DISPLAY\SAM79DF\7&16b8ddb4&0&UID256
+        +1ms  DxgKrnl                10011  
+        +1ms  DxgKrnl                10011  
+        +2ms  Kernel-PnP               808  End device add, status (STATUS_SUCCESS)
+        +3ms  Kernel-PnP               220  Begin querying bus relations for device DISPLAY\Default_Monitor\7&16b8ddb4&0&UID260
+        +3ms  Kernel-PnP               222  End querying bus relations for device DISPLAY\Default_Monitor\7&16b8ddb4&0&UID260
+        +3ms  DxgKrnl                10011  
+        +6ms  DxgKrnl                10011  
+        +6ms  DxgKrnl                10011  
+       +15ms  DxgKrnl                10011  
+       +15ms  DxgKrnl                10011  
+       +15ms  DxgKrnl                10011  
+       +15ms  DxgKrnl                10011  
+       +16ms  DxgKrnl                10011  
+       +19ms  DxgKrnl                10011  
+       +19ms  DxgKrnl                10011  
+      +100ms  DxgKrnl                10011  
+      +100ms  DxgKrnl                10011  
+      +100ms  DxgKrnl                10011  
+      +101ms  DxgKrnl                10011  
+      +101ms  DxgKrnl                10011  
+      +101ms  DxgKrnl                10011  
+      +101ms  DxgKrnl                10011  
+      +101ms  DxgKrnl                10011  
+      +101ms  DxgKrnl                10011  
+      +101ms  DxgKrnl                10011  
+      +102ms  DxgKrnl                10011  
+      +102ms  DxgKrnl                10011  
+      +102ms  DxgKrnl                10011  
+      +102ms  DxgKrnl                10011  
+      +102ms  DxgKrnl                10011  
+      +102ms  DxgKrnl                10011  
+      +102ms  DxgKrnl                10011  
+      +104ms  DxgKrnl                10011  
+      +104ms  DxgKrnl                10011  
+      +104ms  DxgKrnl                10011  
+      +104ms  DxgKrnl                10011  
+      +108ms  DxgKrnl                10011  
+      +108ms  DxgKrnl                10011  
+      +121ms  DxgKrnl                10011  
+      +121ms  DxgKrnl                10011  
+      +121ms  DxgKrnl                10011  
+      +121ms  DxgKrnl                10011  
+      +121ms  DxgKrnl                10011  
+      +121ms  DxgKrnl                10011  
+      +121ms  DxgKrnl                10011  
+      +121ms  DxgKrnl                10011  
+      +121ms  DxgKrnl                10011  
+      +121ms  DxgKrnl                10011  
+      +121ms  DxgKrnl                10011  
+      +122ms  DxgKrnl                10011  
+      +122ms  DxgKrnl                10011  
+      +122ms  DxgKrnl                10011  
+      +127ms  DxgKrnl                10011  
+      +128ms  DxgKrnl                10011  
+      +130ms  DxgKrnl                10011  
+      +130ms  DxgKrnl                10011  
+      +136ms  DxgKrnl                10011  
+      +136ms  DxgKrnl                10011  
+      +160ms  Kernel-PnP               220  Begin querying bus relations for device PCI\VEN_1002&DEV_7550&SUBSYS_E4891DA2&REV_C0\6&8916a45&0&00000009
+      +211ms  Kernel-PnP               222  End querying bus relations for device PCI\VEN_1002&DEV_7550&SUBSYS_E4891DA2&REV_C0\6&8916a45&0&00000009
+      +211ms  Kernel-PnP              1010  버스에 누락 된 것으로 보고 된 장치 DISPLAY\Default_Monitor\7&16b8ddb4&0&UID260이 (가) 제거 되었습니다. 제거 된 장치 수 개수: 1
+      +211ms  DxgKrnl                10011  
+      +212ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDCP&7&16b8ddb4&0
+      +212ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDCP&7&16b8ddb4&0
+      +212ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDFDANS&7&16b8ddb4&0
+      +212ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDFDANS&7&16b8ddb4&0
+      +212ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDOCL&7&16b8ddb4&0
+      +212ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDOCL&7&16b8ddb4&0
+      +212ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDOGL&7&16b8ddb4&0
+      +212ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDOGL&7&16b8ddb4&0
+      +212ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDVLK&7&16b8ddb4&0
+      +212ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDVLK&7&16b8ddb4&0
+      +212ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDWIN&7&16b8ddb4&0
+      +212ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDWIN&7&16b8ddb4&0
+      +212ms  Kernel-PnP               220  Begin querying bus relations for device DISPLAY\BBC0104\7&16b8ddb4&0&UID265
+      +212ms  Kernel-PnP               222  End querying bus relations for device DISPLAY\BBC0104\7&16b8ddb4&0&UID265
+      +212ms  Kernel-PnP               220  Begin querying bus relations for device DISPLAY\SAM79DF\7&16b8ddb4&0&UID256
+      +212ms  Kernel-PnP               222  End querying bus relations for device DISPLAY\SAM79DF\7&16b8ddb4&0&UID256
+      +212ms  DxgKrnl                10011  
+      +215ms  DxgKrnl                10011  
+      +216ms  DxgKrnl                10011  
+      +262ms  DxgKrnl                10011  
+      +262ms  DxgKrnl                10011  
+      +268ms  DxgKrnl                10011  
+      +268ms  DxgKrnl                10011  
+      +268ms  DxgKrnl                10011  
+      +268ms  DxgKrnl                10011  
+      +268ms  DxgKrnl                10011  
+      +268ms  DxgKrnl                10011  
+      +268ms  DxgKrnl                10011  
+      +279ms  DxgKrnl                10011  
+      +289ms  DxgKrnl                10011  
+      +289ms  DxgKrnl                10011  
+      +289ms  DxgKrnl                10011  
+      +290ms  DxgKrnl                10011  
+      +290ms  DxgKrnl                10011  
+      +290ms  DxgKrnl                10011  
+      +290ms  DxgKrnl                10011  
+      +290ms  DxgKrnl                10011  
+      +290ms  DxgKrnl                10011  
+      +292ms  DxgKrnl                10011  
+      +292ms  DxgKrnl                10011  
+      +292ms  DxgKrnl                10011  
+      +292ms  DxgKrnl                10011  
+      +294ms  DxgKrnl                10011  
+      +294ms  DxgKrnl                10011  
+      +300ms  DxgKrnl                10011  
+      +300ms  DxgKrnl                10011  
+      +300ms  DxgKrnl                10011  
+      +300ms  DxgKrnl                10011  
+      +301ms  DxgKrnl                10011  
+      +301ms  DxgKrnl                10011  
+      +303ms  DxgKrnl                10011  
+      +304ms  DxgKrnl                10011  
+      +305ms  DxgKrnl                10011  
+      +305ms  DxgKrnl                10011  
+      +307ms  DxgKrnl                10011  
+      +307ms  DxgKrnl                10011  
+      +420ms  DxgKrnl                10011  
+      +421ms  DxgKrnl                10011  
+      +421ms  DxgKrnl                10011  
+      +421ms  DxgKrnl                10011  
+      +421ms  DxgKrnl                10011  
+      +421ms  DxgKrnl                10011  
+      +421ms  DxgKrnl                10011  
+      +422ms  DxgKrnl                10011  
+      +422ms  DxgKrnl                10011  
+      +422ms  DxgKrnl                10011  
+      +423ms  DxgKrnl                10011  
+      +423ms  DxgKrnl                10011  
+      +428ms  DxgKrnl                10011  
+      +428ms  DxgKrnl                10011  
+      +428ms  DxgKrnl                10011  
+      +428ms  DxgKrnl                10011  
+      +428ms  DxgKrnl                10011  
+      +435ms  DxgKrnl                10011  
+      +435ms  DxgKrnl                10011  
+      +437ms  DxgKrnl                10011  
+      +437ms  DxgKrnl                10011  
+      +440ms  DxgKrnl                10011  
+      +440ms  DxgKrnl                10011  
+      +440ms  DxgKrnl                10011  
+      +441ms  DxgKrnl                10011  
+      +441ms  DxgKrnl                10011  
+      +441ms  DxgKrnl                10011  
+      +445ms  DxgKrnl                10011  
+      +445ms  DxgKrnl                10011  
+      +445ms  DxgKrnl                10011  
+      +445ms  DxgKrnl                10011  
+      +445ms  DxgKrnl                10011  
+      +445ms  DxgKrnl                10011  
+      +446ms  DxgKrnl                10011  
+      +447ms  DxgKrnl                10011  
+      +448ms  DxgKrnl                10011  
+      +448ms  DxgKrnl                10011  
+      +448ms  DxgKrnl                10011  
+      +448ms  DxgKrnl                10011  
+      +448ms  DxgKrnl                10011  
+      +448ms  DxgKrnl                10011  
+      +450ms  DxgKrnl                10011  
+      +450ms  DxgKrnl                10011  
+      +470ms  DxgKrnl                10011  
+      +470ms  DxgKrnl                10011  
+      +471ms  DxgKrnl                10011  
+      +471ms  DxgKrnl                10011  
+
+---- #2  1010 @ 16:23:21.051   (-60s 구간, 528건) ----
+    -41363ms  Kernel-PnP               220  Begin querying bus relations for device PCI\VEN_1002&DEV_7550&SUBSYS_E4891DA2&REV_C0\6&8916a45&0&00000009
+    -41363ms  DxgKrnl                10011  
+    -41325ms  DxgKrnl                10011  
+    -41325ms  Kernel-PnP               222  End querying bus relations for device PCI\VEN_1002&DEV_7550&SUBSYS_E4891DA2&REV_C0\6&8916a45&0&00000009
+    -41325ms  DxgKrnl                10011  
+    -41325ms  DxgKrnl                10011  
+    -41325ms  Kernel-PnP              1010  버스에 누락 된 것으로 보고 된 장치 DISPLAY\SAM7B0C\7&16b8ddb4&0&UID260이 (가) 제거 되었습니다. 제거 된 장치 수 개수: 1
+    -41325ms  DxgKrnl                10011  
+    -41325ms  DxgKrnl                10011  
+    -41324ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDCP&7&16b8ddb4&0
+    -41324ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDCP&7&16b8ddb4&0
+    -41324ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDFDANS&7&16b8ddb4&0
+    -41324ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDFDANS&7&16b8ddb4&0
+    -41324ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDOCL&7&16b8ddb4&0
+    -41324ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDOCL&7&16b8ddb4&0
+    -41324ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDOGL&7&16b8ddb4&0
+    -41324ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDOGL&7&16b8ddb4&0
+    -41324ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDVLK&7&16b8ddb4&0
+    -41324ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDVLK&7&16b8ddb4&0
+    -41324ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDWIN&7&16b8ddb4&0
+    -41324ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDWIN&7&16b8ddb4&0
+    -41324ms  Kernel-PnP               220  Begin querying bus relations for device DISPLAY\BBC0104\7&16b8ddb4&0&UID265
+    -41324ms  Kernel-PnP               222  End querying bus relations for device DISPLAY\BBC0104\7&16b8ddb4&0&UID265
+    -41324ms  Kernel-PnP               220  Begin querying bus relations for device DISPLAY\SAM79DF\7&16b8ddb4&0&UID256
+    -41324ms  Kernel-PnP               222  End querying bus relations for device DISPLAY\SAM79DF\7&16b8ddb4&0&UID256
+    -41324ms  DxgKrnl                10011  
+    -41324ms  DxgKrnl                10011  
+    -41323ms  Kernel-PnP               808  End device add, status (STATUS_SUCCESS)
+    -41322ms  Kernel-PnP               220  Begin querying bus relations for device DISPLAY\Default_Monitor\7&16b8ddb4&0&UID260
+    -41322ms  Kernel-PnP               222  End querying bus relations for device DISPLAY\Default_Monitor\7&16b8ddb4&0&UID260
+    -41322ms  DxgKrnl                10011  
+    -41319ms  DxgKrnl                10011  
+    -41319ms  DxgKrnl                10011  
+    -41310ms  DxgKrnl                10011  
+    -41310ms  DxgKrnl                10011  
+    -41310ms  DxgKrnl                10011  
+    -41310ms  DxgKrnl                10011  
+    -41310ms  DxgKrnl                10011  
+    -41306ms  DxgKrnl                10011  
+    -41306ms  DxgKrnl                10011  
+    -41225ms  DxgKrnl                10011  
+    -41225ms  DxgKrnl                10011  
+    -41225ms  DxgKrnl                10011  
+    -41224ms  DxgKrnl                10011  
+    -41224ms  DxgKrnl                10011  
+    -41224ms  DxgKrnl                10011  
+    -41224ms  DxgKrnl                10011  
+    -41224ms  DxgKrnl                10011  
+    -41224ms  DxgKrnl                10011  
+    -41224ms  DxgKrnl                10011  
+    -41224ms  DxgKrnl                10011  
+    -41224ms  DxgKrnl                10011  
+    -41223ms  DxgKrnl                10011  
+    -41223ms  DxgKrnl                10011  
+    -41223ms  DxgKrnl                10011  
+    -41223ms  DxgKrnl                10011  
+    -41223ms  DxgKrnl                10011  
+    -41221ms  DxgKrnl                10011  
+    -41221ms  DxgKrnl                10011  
+    -41221ms  DxgKrnl                10011  
+    -41221ms  DxgKrnl                10011  
+    -41217ms  DxgKrnl                10011  
+    -41217ms  DxgKrnl                10011  
+    -41204ms  DxgKrnl                10011  
+    -41204ms  DxgKrnl                10011  
+    -41204ms  DxgKrnl                10011  
+    -41204ms  DxgKrnl                10011  
+    -41204ms  DxgKrnl                10011  
+    -41204ms  DxgKrnl                10011  
+    -41204ms  DxgKrnl                10011  
+    -41204ms  DxgKrnl                10011  
+    -41204ms  DxgKrnl                10011  
+    -41204ms  DxgKrnl                10011  
+    -41204ms  DxgKrnl                10011  
+    -41204ms  DxgKrnl                10011  
+    -41203ms  DxgKrnl                10011  
+    -41203ms  DxgKrnl                10011  
+    -41198ms  DxgKrnl                10011  
+    -41197ms  DxgKrnl                10011  
+    -41195ms  DxgKrnl                10011  
+    -41195ms  DxgKrnl                10011  
+    -41189ms  DxgKrnl                10011  
+    -41189ms  DxgKrnl                10011  
+    -41165ms  Kernel-PnP               220  Begin querying bus relations for device PCI\VEN_1002&DEV_7550&SUBSYS_E4891DA2&REV_C0\6&8916a45&0&00000009
+    -41114ms  Kernel-PnP               222  End querying bus relations for device PCI\VEN_1002&DEV_7550&SUBSYS_E4891DA2&REV_C0\6&8916a45&0&00000009
+    -41114ms  Kernel-PnP              1010  버스에 누락 된 것으로 보고 된 장치 DISPLAY\Default_Monitor\7&16b8ddb4&0&UID260이 (가) 제거 되었습니다. 제거 된 장치 수 개수: 1
+    -41114ms  DxgKrnl                10011  
+    -41114ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDCP&7&16b8ddb4&0
+    -41114ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDCP&7&16b8ddb4&0
+    -41114ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDFDANS&7&16b8ddb4&0
+    -41114ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDFDANS&7&16b8ddb4&0
+    -41114ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDOCL&7&16b8ddb4&0
+    -41114ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDOCL&7&16b8ddb4&0
+    -41114ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDOGL&7&16b8ddb4&0
+    -41114ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDOGL&7&16b8ddb4&0
+    -41114ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDVLK&7&16b8ddb4&0
+    -41114ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDVLK&7&16b8ddb4&0
+    -41114ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDWIN&7&16b8ddb4&0
+    -41114ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDWIN&7&16b8ddb4&0
+    -41114ms  Kernel-PnP               220  Begin querying bus relations for device DISPLAY\BBC0104\7&16b8ddb4&0&UID265
+    -41113ms  Kernel-PnP               222  End querying bus relations for device DISPLAY\BBC0104\7&16b8ddb4&0&UID265
+    -41113ms  Kernel-PnP               220  Begin querying bus relations for device DISPLAY\SAM79DF\7&16b8ddb4&0&UID256
+    -41113ms  Kernel-PnP               222  End querying bus relations for device DISPLAY\SAM79DF\7&16b8ddb4&0&UID256
+    -41113ms  DxgKrnl                10011  
+    -41110ms  DxgKrnl                10011  
+    -41109ms  DxgKrnl                10011  
+    -41063ms  DxgKrnl                10011  
+    -41063ms  DxgKrnl                10011  
+    -41057ms  DxgKrnl                10011  
+    -41057ms  DxgKrnl                10011  
+    -41057ms  DxgKrnl                10011  
+    -41057ms  DxgKrnl                10011  
+    -41057ms  DxgKrnl                10011  
+    -41057ms  DxgKrnl                10011  
+    -41057ms  DxgKrnl                10011  
+    -41046ms  DxgKrnl                10011  
+    -41036ms  DxgKrnl                10011  
+    -41036ms  DxgKrnl                10011  
+    -41036ms  DxgKrnl                10011  
+    -41035ms  DxgKrnl                10011  
+    -41035ms  DxgKrnl                10011  
+    -41035ms  DxgKrnl                10011  
+    -41035ms  DxgKrnl                10011  
+    -41035ms  DxgKrnl                10011  
+    -41035ms  DxgKrnl                10011  
+    -41033ms  DxgKrnl                10011  
+    -41033ms  DxgKrnl                10011  
+    -41033ms  DxgKrnl                10011  
+    -41033ms  DxgKrnl                10011  
+    -41031ms  DxgKrnl                10011  
+    -41031ms  DxgKrnl                10011  
+    -41025ms  DxgKrnl                10011  
+    -41025ms  DxgKrnl                10011  
+    -41025ms  DxgKrnl                10011  
+    -41025ms  DxgKrnl                10011  
+    -41024ms  DxgKrnl                10011  
+    -41024ms  DxgKrnl                10011  
+    -41022ms  DxgKrnl                10011  
+    -41021ms  DxgKrnl                10011  
+    -41020ms  DxgKrnl                10011  
+    -41020ms  DxgKrnl                10011  
+    -41018ms  DxgKrnl                10011  
+    -41018ms  DxgKrnl                10011  
+    -40905ms  DxgKrnl                10011  
+    -40905ms  DxgKrnl                10011  
+    -40904ms  DxgKrnl                10011  
+    -40904ms  DxgKrnl                10011  
+    -40904ms  DxgKrnl                10011  
+    -40904ms  DxgKrnl                10011  
+    -40904ms  DxgKrnl                10011  
+    -40903ms  DxgKrnl                10011  
+    -40903ms  DxgKrnl                10011  
+    -40903ms  DxgKrnl                10011  
+    -40902ms  DxgKrnl                10011  
+    -40902ms  DxgKrnl                10011  
+    -40897ms  DxgKrnl                10011  
+    -40897ms  DxgKrnl                10011  
+    -40897ms  DxgKrnl                10011  
+    -40897ms  DxgKrnl                10011  
+    -40897ms  DxgKrnl                10011  
+    -40890ms  DxgKrnl                10011  
+    -40890ms  DxgKrnl                10011  
+    -40888ms  DxgKrnl                10011  
+    -40888ms  DxgKrnl                10011  
+    -40885ms  DxgKrnl                10011  
+    -40885ms  DxgKrnl                10011  
+    -40885ms  DxgKrnl                10011  
+    -40885ms  DxgKrnl                10011  
+    -40884ms  DxgKrnl                10011  
+    -40884ms  DxgKrnl                10011  
+    -40880ms  DxgKrnl                10011  
+    -40880ms  DxgKrnl                10011  
+    -40880ms  DxgKrnl                10011  
+    -40880ms  DxgKrnl                10011  
+    -40880ms  DxgKrnl                10011  
+    -40880ms  DxgKrnl                10011  
+    -40879ms  DxgKrnl                10011  
+    -40878ms  DxgKrnl                10011  
+    -40877ms  DxgKrnl                10011  
+    -40877ms  DxgKrnl                10011  
+    -40877ms  DxgKrnl                10011  
+    -40877ms  DxgKrnl                10011  
+    -40877ms  DxgKrnl                10011  
+    -40877ms  DxgKrnl                10011  
+    -40875ms  DxgKrnl                10011  
+    -40875ms  DxgKrnl                10011  
+    -40855ms  DxgKrnl                10011  
+    -40855ms  DxgKrnl                10011  
+    -40854ms  DxgKrnl                10011  
+    -40854ms  DxgKrnl                10011  
+    -37829ms  DxgKrnl                10011  
+    -37583ms  Kernel-PnP               220  Begin querying bus relations for device PCI\VEN_1002&DEV_7550&SUBSYS_E4891DA2&REV_C0\6&8916a45&0&00000009
+    -37583ms  DxgKrnl                10011  
+    -37582ms  DxgKrnl                10011  
+    -37582ms  DxgKrnl                10011  
+    -37582ms  DxgKrnl                10011  
+    -37582ms  DxgKrnl                10011  
+    -37580ms  DxgKrnl                10011  
+    -37580ms  DxgKrnl                10011  
+    -37578ms  DxgKrnl                10011  
+    -37578ms  DxgKrnl                10011  
+    -37574ms  Kernel-PnP               222  End querying bus relations for device PCI\VEN_1002&DEV_7550&SUBSYS_E4891DA2&REV_C0\6&8916a45&0&00000009
+    -37574ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDCP&7&16b8ddb4&0
+    -37574ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDCP&7&16b8ddb4&0
+    -37574ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDFDANS&7&16b8ddb4&0
+    -37574ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDFDANS&7&16b8ddb4&0
+    -37574ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDOCL&7&16b8ddb4&0
+    -37574ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDOCL&7&16b8ddb4&0
+    -37574ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDOGL&7&16b8ddb4&0
+    -37574ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDOGL&7&16b8ddb4&0
+    -37574ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDVLK&7&16b8ddb4&0
+    -37574ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDVLK&7&16b8ddb4&0
+    -37574ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDWIN&7&16b8ddb4&0
+    -37574ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDWIN&7&16b8ddb4&0
+    -37574ms  Kernel-PnP               220  Begin querying bus relations for device DISPLAY\BBC0104\7&16b8ddb4&0&UID265
+    -37574ms  Kernel-PnP               222  End querying bus relations for device DISPLAY\BBC0104\7&16b8ddb4&0&UID265
+    -37574ms  Kernel-PnP               220  Begin querying bus relations for device DISPLAY\SAM79DF\7&16b8ddb4&0&UID256
+    -37574ms  Kernel-PnP               222  End querying bus relations for device DISPLAY\SAM79DF\7&16b8ddb4&0&UID256
+    -37569ms  DxgKrnl                10011  
+    -37569ms  DxgKrnl                10011  
+    -37569ms  DxgKrnl                10011  
+    -37569ms  DxgKrnl                10011  
+    -37569ms  Kernel-PnP               808  End device add, status (STATUS_SUCCESS)
+    -37569ms  DxgKrnl                10011  
+    -37565ms  DxgKrnl                10011  
+    -37565ms  DxgKrnl                10011  
+    -37565ms  Kernel-PnP               220  Begin querying bus relations for device DISPLAY\SAM7B0C\7&16b8ddb4&0&UID260
+    -37565ms  Kernel-PnP               222  End querying bus relations for device DISPLAY\SAM7B0C\7&16b8ddb4&0&UID260
+    -37564ms  DxgKrnl                10011  
+    -37544ms  DxgKrnl                10011  
+    -37544ms  DxgKrnl                10011  
+    -37544ms  DxgKrnl                10011  
+    -37542ms  DxgKrnl                10011  
+    -37542ms  DxgKrnl                10011  
+    -37542ms  DxgKrnl                10011  
+    -37542ms  DxgKrnl                10011  
+    -37542ms  DxgKrnl                10011  
+    -37542ms  DxgKrnl                10011  
+    -37542ms  DxgKrnl                10011  
+    -37542ms  DxgKrnl                10011  
+    -37542ms  DxgKrnl                10011  
+    -37542ms  DxgKrnl                10011  
+    -37540ms  DxgKrnl                10011  
+    -37540ms  DxgKrnl                10011  
+    -37540ms  DxgKrnl                10011  
+    -37540ms  DxgKrnl                10011  
+    -37539ms  DxgKrnl                10011  
+    -37539ms  DxgKrnl                10011  
+    -37524ms  DxgKrnl                10011  
+    -37524ms  DxgKrnl                10011  
+    -37524ms  DxgKrnl                10011  
+    -37524ms  DxgKrnl                10011  
+    -37524ms  DxgKrnl                10011  
+    -37524ms  DxgKrnl                10011  
+    -37524ms  DxgKrnl                10011  
+    -37524ms  DxgKrnl                10011  
+    -37523ms  DxgKrnl                10011  
+    -37523ms  DxgKrnl                10011  
+    -37522ms  DxgKrnl                10011  
+    -37521ms  DxgKrnl                10011  
+    -37519ms  DxgKrnl                10011  
+    -37519ms  DxgKrnl                10011  
+    -37502ms  DxgKrnl                10011  
+    -37502ms  DxgKrnl                10011  
+    -37502ms  DxgKrnl                10011  
+    -37502ms  DxgKrnl                10011  
+    -37502ms  DxgKrnl                10011  
+    -37497ms  DxgKrnl                10011  
+    -37497ms  DxgKrnl                10011  
+    -37494ms  DxgKrnl                10011  
+    -37494ms  DxgKrnl                10011  
+    -37494ms  DxgKrnl                10011  
+    -37494ms  DxgKrnl                10011  
+    -37494ms  DxgKrnl                10011  
+    -37494ms  DxgKrnl                10011  
+    -37494ms  DxgKrnl                10011  
+    -37494ms  DxgKrnl                10011  
+    -37494ms  DxgKrnl                10011  
+    -37494ms  DxgKrnl                10011  
+    -37494ms  DxgKrnl                10011  
+    -37490ms  DxgKrnl                10011  
+    -37490ms  DxgKrnl                10011  
+    -37484ms  DxgKrnl                10011  
+    -37484ms  DxgKrnl                10011  
+    -37376ms  DxgKrnl                10011  
+    -37376ms  DxgKrnl                10011  
+    -37322ms  DxgKrnl                10011  
+    -37321ms  DxgKrnl                10011  
+    -37321ms  DxgKrnl                10011  
+    -37321ms  DxgKrnl                10011  
+    -37321ms  DxgKrnl                10011  
+    -37321ms  DxgKrnl                10011  
+    -37320ms  DxgKrnl                10011  
+    -37320ms  DxgKrnl                10011  
+    -37319ms  DxgKrnl                10011  
+    -37319ms  DxgKrnl                10011  
+    -37319ms  DxgKrnl                10011  
+    -37319ms  DxgKrnl                10011  
+    -37319ms  DxgKrnl                10011  
+    -37318ms  DxgKrnl                10011  
+    -37318ms  DxgKrnl                10011  
+    -37317ms  DxgKrnl                10011  
+    -37316ms  DxgKrnl                10011  
+    -37315ms  DxgKrnl                10011  
+    -37315ms  DxgKrnl                10011  
+    -37315ms  DxgKrnl                10011  
+    -37315ms  DxgKrnl                10011  
+    -37314ms  DxgKrnl                10011  
+    -37314ms  DxgKrnl                10011  
+    -37313ms  DxgKrnl                10011  
+    -37313ms  DxgKrnl                10011  
+    -37306ms  DxgKrnl                10011  
+    -37306ms  DxgKrnl                10011  
+    -37306ms  DxgKrnl                10011  
+    -37304ms  DxgKrnl                10011  
+    -37302ms  DxgKrnl                10011  
+    -37302ms  DxgKrnl                10011  
+    -37302ms  DxgKrnl                10011  
+    -37302ms  DxgKrnl                10011  
+    -37302ms  DxgKrnl                10011  
+    -37300ms  DxgKrnl                10011  
+    -37300ms  DxgKrnl                10011  
+    -37299ms  DxgKrnl                10011  
+    -37298ms  DxgKrnl                10011  
+    -37288ms  DxgKrnl                10011  
+    -37288ms  DxgKrnl                10011  
+    -36177ms  DxgKrnl                10011  
+    -36177ms  DxgKrnl                10011  
+    -36177ms  DxgKrnl                10011  
+    -36177ms  DxgKrnl                10011  
+    -36177ms  DxgKrnl                10011  
+    -36177ms  DxgKrnl                10011  
+    -36177ms  DxgKrnl                10011  
+    -36177ms  DxgKrnl                10011  
+       -40ms  Kernel-PnP               220  Begin querying bus relations for device PCI\VEN_1002&DEV_7550&SUBSYS_E4891DA2&REV_C0\6&8916a45&0&00000009
+       -40ms  DxgKrnl                10011  
+        -1ms  DxgKrnl                10011  
+         0ms  Kernel-PnP               222  End querying bus relations for device PCI\VEN_1002&DEV_7550&SUBSYS_E4891DA2&REV_C0\6&8916a45&0&00000009
+         0ms  DxgKrnl                10011  
+         0ms  Kernel-PnP              1010  버스에 누락 된 것으로 보고 된 장치 DISPLAY\SAM7B0C\7&16b8ddb4&0&UID260이 (가) 제거 되었습니다. 제거 된 장치 수 개수: 1
+         0ms  DxgKrnl                10011  
+         0ms  DxgKrnl                10011  
+         0ms  DxgKrnl                10011  
+        +1ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDCP&7&16b8ddb4&0
+        +1ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDCP&7&16b8ddb4&0
+        +1ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDFDANS&7&16b8ddb4&0
+        +1ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDFDANS&7&16b8ddb4&0
+        +1ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDOCL&7&16b8ddb4&0
+        +1ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDOCL&7&16b8ddb4&0
+        +1ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDOGL&7&16b8ddb4&0
+        +1ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDOGL&7&16b8ddb4&0
+        +1ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDVLK&7&16b8ddb4&0
+        +1ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDVLK&7&16b8ddb4&0
+        +1ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDWIN&7&16b8ddb4&0
+        +1ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDWIN&7&16b8ddb4&0
+        +1ms  Kernel-PnP               220  Begin querying bus relations for device DISPLAY\BBC0104\7&16b8ddb4&0&UID265
+        +1ms  Kernel-PnP               222  End querying bus relations for device DISPLAY\BBC0104\7&16b8ddb4&0&UID265
+        +1ms  Kernel-PnP               220  Begin querying bus relations for device DISPLAY\SAM79DF\7&16b8ddb4&0&UID256
+        +1ms  Kernel-PnP               222  End querying bus relations for device DISPLAY\SAM79DF\7&16b8ddb4&0&UID256
+        +2ms  DxgKrnl                10011  
+        +2ms  DxgKrnl                10011  
+        +2ms  Kernel-PnP               808  End device add, status (STATUS_SUCCESS)
+        +3ms  Kernel-PnP               220  Begin querying bus relations for device DISPLAY\Default_Monitor\7&16b8ddb4&0&UID260
+        +3ms  Kernel-PnP               222  End querying bus relations for device DISPLAY\Default_Monitor\7&16b8ddb4&0&UID260
+        +3ms  DxgKrnl                10011  
+        +6ms  DxgKrnl                10011  
+        +6ms  DxgKrnl                10011  
+       +14ms  DxgKrnl                10011  
+       +14ms  DxgKrnl                10011  
+       +14ms  DxgKrnl                10011  
+       +14ms  DxgKrnl                10011  
+       +14ms  DxgKrnl                10011  
+       +18ms  DxgKrnl                10011  
+       +18ms  DxgKrnl                10011  
+       +95ms  DxgKrnl                10011  
+       +95ms  DxgKrnl                10011  
+       +95ms  DxgKrnl                10011  
+       +96ms  DxgKrnl                10011  
+       +97ms  DxgKrnl                10011  
+       +97ms  DxgKrnl                10011  
+       +97ms  DxgKrnl                10011  
+       +97ms  DxgKrnl                10011  
+       +97ms  DxgKrnl                10011  
+       +97ms  DxgKrnl                10011  
+       +97ms  DxgKrnl                10011  
+       +97ms  DxgKrnl                10011  
+       +97ms  DxgKrnl                10011  
+       +97ms  DxgKrnl                10011  
+       +97ms  DxgKrnl                10011  
+       +97ms  DxgKrnl                10011  
+       +97ms  DxgKrnl                10011  
+       +99ms  DxgKrnl                10011  
+       +99ms  DxgKrnl                10011  
+       +99ms  DxgKrnl                10011  
+      +100ms  DxgKrnl                10011  
+      +100ms  DxgKrnl                10011  
+      +100ms  DxgKrnl                10011  
+      +103ms  DxgKrnl                10011  
+      +103ms  DxgKrnl                10011  
+      +116ms  DxgKrnl                10011  
+      +116ms  DxgKrnl                10011  
+      +116ms  DxgKrnl                10011  
+      +116ms  DxgKrnl                10011  
+      +116ms  DxgKrnl                10011  
+      +116ms  DxgKrnl                10011  
+      +116ms  DxgKrnl                10011  
+      +117ms  DxgKrnl                10011  
+      +117ms  DxgKrnl                10011  
+      +117ms  DxgKrnl                10011  
+      +117ms  DxgKrnl                10011  
+      +117ms  DxgKrnl                10011  
+      +117ms  DxgKrnl                10011  
+      +117ms  DxgKrnl                10011  
+      +122ms  DxgKrnl                10011  
+      +123ms  DxgKrnl                10011  
+      +125ms  DxgKrnl                10011  
+      +125ms  DxgKrnl                10011  
+      +130ms  DxgKrnl                10011  
+      +131ms  DxgKrnl                10011  
+      +131ms  DxgKrnl                10011  
+      +131ms  DxgKrnl                10011  
+      +198ms  Kernel-PnP               220  Begin querying bus relations for device PCI\VEN_1002&DEV_7550&SUBSYS_E4891DA2&REV_C0\6&8916a45&0&00000009
+      +242ms  Kernel-PnP               222  End querying bus relations for device PCI\VEN_1002&DEV_7550&SUBSYS_E4891DA2&REV_C0\6&8916a45&0&00000009
+      +242ms  DxgKrnl                10011  
+      +242ms  DxgKrnl                10011  
+      +243ms  Kernel-PnP              1010  버스에 누락 된 것으로 보고 된 장치 DISPLAY\Default_Monitor\7&16b8ddb4&0&UID260이 (가) 제거 되었습니다. 제거 된 장치 수 개수: 1
+      +243ms  DxgKrnl                10011  
+      +243ms  DxgKrnl                10011  
+      +243ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDCP&7&16b8ddb4&0
+      +243ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDCP&7&16b8ddb4&0
+      +243ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDFDANS&7&16b8ddb4&0
+      +243ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDFDANS&7&16b8ddb4&0
+      +243ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDOCL&7&16b8ddb4&0
+      +243ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDOCL&7&16b8ddb4&0
+      +243ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDOGL&7&16b8ddb4&0
+      +243ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDOGL&7&16b8ddb4&0
+      +243ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDVLK&7&16b8ddb4&0
+      +243ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDVLK&7&16b8ddb4&0
+      +243ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDWIN&7&16b8ddb4&0
+      +243ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDWIN&7&16b8ddb4&0
+      +243ms  Kernel-PnP               220  Begin querying bus relations for device DISPLAY\BBC0104\7&16b8ddb4&0&UID265
+      +243ms  Kernel-PnP               222  End querying bus relations for device DISPLAY\BBC0104\7&16b8ddb4&0&UID265
+      +243ms  Kernel-PnP               220  Begin querying bus relations for device DISPLAY\SAM79DF\7&16b8ddb4&0&UID256
+      +243ms  Kernel-PnP               222  End querying bus relations for device DISPLAY\SAM79DF\7&16b8ddb4&0&UID256
+      +246ms  DxgKrnl                10011  
+      +247ms  DxgKrnl                10011  
+      +272ms  DxgKrnl                10011  
+      +272ms  DxgKrnl                10011  
+      +276ms  DxgKrnl                10011  
+      +276ms  DxgKrnl                10011  
+      +276ms  DxgKrnl                10011  
+      +276ms  DxgKrnl                10011  
+      +276ms  DxgKrnl                10011  
+      +277ms  DxgKrnl                10011  
+      +277ms  DxgKrnl                10011  
+      +293ms  DxgKrnl                10011  
+      +304ms  DxgKrnl                10011  
+      +304ms  DxgKrnl                10011  
+      +304ms  DxgKrnl                10011  
+      +304ms  DxgKrnl                10011  
+      +304ms  DxgKrnl                10011  
+      +304ms  DxgKrnl                10011  
+      +305ms  DxgKrnl                10011  
+      +305ms  DxgKrnl                10011  
+      +305ms  DxgKrnl                10011  
+      +306ms  DxgKrnl                10011  
+      +306ms  DxgKrnl                10011  
+      +306ms  DxgKrnl                10011  
+      +306ms  DxgKrnl                10011  
+      +307ms  DxgKrnl                10011  
+      +307ms  DxgKrnl                10011  
+      +312ms  DxgKrnl                10011  
+      +312ms  DxgKrnl                10011  
+      +312ms  DxgKrnl                10011  
+      +312ms  DxgKrnl                10011  
+      +312ms  DxgKrnl                10011  
+      +312ms  DxgKrnl                10011  
+      +312ms  DxgKrnl                10011  
+      +313ms  DxgKrnl                10011  
+      +315ms  DxgKrnl                10011  
+      +316ms  DxgKrnl                10011  
+      +316ms  DxgKrnl                10011  
+      +317ms  DxgKrnl                10011  
+      +319ms  DxgKrnl                10011  
+      +319ms  DxgKrnl                10011  
+      +435ms  DxgKrnl                10011  
+      +435ms  DxgKrnl                10011  
+      +435ms  DxgKrnl                10011  
+      +435ms  DxgKrnl                10011  
+      +435ms  DxgKrnl                10011  
+      +436ms  DxgKrnl                10011  
+      +436ms  DxgKrnl                10011  
+      +436ms  DxgKrnl                10011  
+      +436ms  DxgKrnl                10011  
+      +436ms  DxgKrnl                10011  
+      +436ms  DxgKrnl                10011  
+      +437ms  DxgKrnl                10011  
+      +438ms  DxgKrnl                10011  
+      +438ms  DxgKrnl                10011  
+      +439ms  DxgKrnl                10011  
+      +439ms  DxgKrnl                10011  
+      +443ms  DxgKrnl                10011  
+      +443ms  DxgKrnl                10011  
+      +443ms  DxgKrnl                10011  
+      +443ms  DxgKrnl                10011  
+      +443ms  DxgKrnl                10011  
+      +443ms  DxgKrnl                10011  
+      +443ms  DxgKrnl                10011  
+      +443ms  DxgKrnl                10011  
+      +443ms  DxgKrnl                10011  
+      +457ms  DxgKrnl                10011  
+      +457ms  DxgKrnl                10011  
+      +457ms  DxgKrnl                10011  
+      +457ms  DxgKrnl                10011  
+      +461ms  DxgKrnl                10011  
+      +461ms  DxgKrnl                10011  
+      +462ms  DxgKrnl                10011  
+      +462ms  DxgKrnl                10011  
+      +462ms  DxgKrnl                10011  
+      +462ms  DxgKrnl                10011  
+      +463ms  DxgKrnl                10011  
+      +463ms  DxgKrnl                10011  
+      +464ms  DxgKrnl                10011  
+      +464ms  DxgKrnl                10011  
+      +475ms  DxgKrnl                10011  
+      +475ms  DxgKrnl                10011  
+      +490ms  DxgKrnl                10011  
+      +491ms  DxgKrnl                10011  
+
+---- #3  1010 @ 16:24:19.736   (-60s 구간, 528건) ----
+    -58725ms  Kernel-PnP               220  Begin querying bus relations for device PCI\VEN_1002&DEV_7550&SUBSYS_E4891DA2&REV_C0\6&8916a45&0&00000009
+    -58725ms  DxgKrnl                10011  
+    -58685ms  DxgKrnl                10011  
+    -58685ms  Kernel-PnP               222  End querying bus relations for device PCI\VEN_1002&DEV_7550&SUBSYS_E4891DA2&REV_C0\6&8916a45&0&00000009
+    -58685ms  DxgKrnl                10011  
+    -58685ms  Kernel-PnP              1010  버스에 누락 된 것으로 보고 된 장치 DISPLAY\SAM7B0C\7&16b8ddb4&0&UID260이 (가) 제거 되었습니다. 제거 된 장치 수 개수: 1
+    -58685ms  DxgKrnl                10011  
+    -58684ms  DxgKrnl                10011  
+    -58684ms  DxgKrnl                10011  
+    -58684ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDCP&7&16b8ddb4&0
+    -58684ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDCP&7&16b8ddb4&0
+    -58684ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDFDANS&7&16b8ddb4&0
+    -58684ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDFDANS&7&16b8ddb4&0
+    -58684ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDOCL&7&16b8ddb4&0
+    -58684ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDOCL&7&16b8ddb4&0
+    -58684ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDOGL&7&16b8ddb4&0
+    -58684ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDOGL&7&16b8ddb4&0
+    -58684ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDVLK&7&16b8ddb4&0
+    -58684ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDVLK&7&16b8ddb4&0
+    -58684ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDWIN&7&16b8ddb4&0
+    -58684ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDWIN&7&16b8ddb4&0
+    -58684ms  Kernel-PnP               220  Begin querying bus relations for device DISPLAY\BBC0104\7&16b8ddb4&0&UID265
+    -58684ms  Kernel-PnP               222  End querying bus relations for device DISPLAY\BBC0104\7&16b8ddb4&0&UID265
+    -58684ms  Kernel-PnP               220  Begin querying bus relations for device DISPLAY\SAM79DF\7&16b8ddb4&0&UID256
+    -58684ms  Kernel-PnP               222  End querying bus relations for device DISPLAY\SAM79DF\7&16b8ddb4&0&UID256
+    -58683ms  DxgKrnl                10011  
+    -58683ms  DxgKrnl                10011  
+    -58683ms  Kernel-PnP               808  End device add, status (STATUS_SUCCESS)
+    -58682ms  Kernel-PnP               220  Begin querying bus relations for device DISPLAY\Default_Monitor\7&16b8ddb4&0&UID260
+    -58682ms  Kernel-PnP               222  End querying bus relations for device DISPLAY\Default_Monitor\7&16b8ddb4&0&UID260
+    -58682ms  DxgKrnl                10011  
+    -58679ms  DxgKrnl                10011  
+    -58679ms  DxgKrnl                10011  
+    -58670ms  DxgKrnl                10011  
+    -58670ms  DxgKrnl                10011  
+    -58670ms  DxgKrnl                10011  
+    -58670ms  DxgKrnl                10011  
+    -58670ms  DxgKrnl                10011  
+    -58667ms  DxgKrnl                10011  
+    -58667ms  DxgKrnl                10011  
+    -58589ms  DxgKrnl                10011  
+    -58589ms  DxgKrnl                10011  
+    -58589ms  DxgKrnl                10011  
+    -58588ms  DxgKrnl                10011  
+    -58588ms  DxgKrnl                10011  
+    -58588ms  DxgKrnl                10011  
+    -58588ms  DxgKrnl                10011  
+    -58588ms  DxgKrnl                10011  
+    -58588ms  DxgKrnl                10011  
+    -58588ms  DxgKrnl                10011  
+    -58588ms  DxgKrnl                10011  
+    -58588ms  DxgKrnl                10011  
+    -58588ms  DxgKrnl                10011  
+    -58588ms  DxgKrnl                10011  
+    -58587ms  DxgKrnl                10011  
+    -58587ms  DxgKrnl                10011  
+    -58587ms  DxgKrnl                10011  
+    -58585ms  DxgKrnl                10011  
+    -58585ms  DxgKrnl                10011  
+    -58585ms  DxgKrnl                10011  
+    -58585ms  DxgKrnl                10011  
+    -58585ms  DxgKrnl                10011  
+    -58585ms  DxgKrnl                10011  
+    -58581ms  DxgKrnl                10011  
+    -58581ms  DxgKrnl                10011  
+    -58568ms  DxgKrnl                10011  
+    -58568ms  DxgKrnl                10011  
+    -58568ms  DxgKrnl                10011  
+    -58568ms  DxgKrnl                10011  
+    -58568ms  DxgKrnl                10011  
+    -58568ms  DxgKrnl                10011  
+    -58568ms  DxgKrnl                10011  
+    -58568ms  DxgKrnl                10011  
+    -58568ms  DxgKrnl                10011  
+    -58568ms  DxgKrnl                10011  
+    -58568ms  DxgKrnl                10011  
+    -58568ms  DxgKrnl                10011  
+    -58567ms  DxgKrnl                10011  
+    -58567ms  DxgKrnl                10011  
+    -58562ms  DxgKrnl                10011  
+    -58561ms  DxgKrnl                10011  
+    -58559ms  DxgKrnl                10011  
+    -58559ms  DxgKrnl                10011  
+    -58555ms  DxgKrnl                10011  
+    -58554ms  DxgKrnl                10011  
+    -58554ms  DxgKrnl                10011  
+    -58554ms  DxgKrnl                10011  
+    -58486ms  Kernel-PnP               220  Begin querying bus relations for device PCI\VEN_1002&DEV_7550&SUBSYS_E4891DA2&REV_C0\6&8916a45&0&00000009
+    -58442ms  Kernel-PnP               222  End querying bus relations for device PCI\VEN_1002&DEV_7550&SUBSYS_E4891DA2&REV_C0\6&8916a45&0&00000009
+    -58442ms  DxgKrnl                10011  
+    -58442ms  DxgKrnl                10011  
+    -58442ms  Kernel-PnP              1010  버스에 누락 된 것으로 보고 된 장치 DISPLAY\Default_Monitor\7&16b8ddb4&0&UID260이 (가) 제거 되었습니다. 제거 된 장치 수 개수: 1
+    -58442ms  DxgKrnl                10011  
+    -58442ms  DxgKrnl                10011  
+    -58441ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDCP&7&16b8ddb4&0
+    -58441ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDCP&7&16b8ddb4&0
+    -58441ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDFDANS&7&16b8ddb4&0
+    -58441ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDFDANS&7&16b8ddb4&0
+    -58441ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDOCL&7&16b8ddb4&0
+    -58441ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDOCL&7&16b8ddb4&0
+    -58441ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDOGL&7&16b8ddb4&0
+    -58441ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDOGL&7&16b8ddb4&0
+    -58441ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDVLK&7&16b8ddb4&0
+    -58441ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDVLK&7&16b8ddb4&0
+    -58441ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDWIN&7&16b8ddb4&0
+    -58441ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDWIN&7&16b8ddb4&0
+    -58441ms  Kernel-PnP               220  Begin querying bus relations for device DISPLAY\BBC0104\7&16b8ddb4&0&UID265
+    -58441ms  Kernel-PnP               222  End querying bus relations for device DISPLAY\BBC0104\7&16b8ddb4&0&UID265
+    -58441ms  Kernel-PnP               220  Begin querying bus relations for device DISPLAY\SAM79DF\7&16b8ddb4&0&UID256
+    -58441ms  Kernel-PnP               222  End querying bus relations for device DISPLAY\SAM79DF\7&16b8ddb4&0&UID256
+    -58438ms  DxgKrnl                10011  
+    -58438ms  DxgKrnl                10011  
+    -58413ms  DxgKrnl                10011  
+    -58412ms  DxgKrnl                10011  
+    -58408ms  DxgKrnl                10011  
+    -58408ms  DxgKrnl                10011  
+    -58408ms  DxgKrnl                10011  
+    -58408ms  DxgKrnl                10011  
+    -58408ms  DxgKrnl                10011  
+    -58408ms  DxgKrnl                10011  
+    -58408ms  DxgKrnl                10011  
+    -58391ms  DxgKrnl                10011  
+    -58381ms  DxgKrnl                10011  
+    -58381ms  DxgKrnl                10011  
+    -58381ms  DxgKrnl                10011  
+    -58380ms  DxgKrnl                10011  
+    -58380ms  DxgKrnl                10011  
+    -58380ms  DxgKrnl                10011  
+    -58380ms  DxgKrnl                10011  
+    -58380ms  DxgKrnl                10011  
+    -58380ms  DxgKrnl                10011  
+    -58378ms  DxgKrnl                10011  
+    -58378ms  DxgKrnl                10011  
+    -58378ms  DxgKrnl                10011  
+    -58378ms  DxgKrnl                10011  
+    -58378ms  DxgKrnl                10011  
+    -58378ms  DxgKrnl                10011  
+    -58373ms  DxgKrnl                10011  
+    -58373ms  DxgKrnl                10011  
+    -58373ms  DxgKrnl                10011  
+    -58373ms  DxgKrnl                10011  
+    -58372ms  DxgKrnl                10011  
+    -58372ms  DxgKrnl                10011  
+    -58372ms  DxgKrnl                10011  
+    -58372ms  DxgKrnl                10011  
+    -58369ms  DxgKrnl                10011  
+    -58368ms  DxgKrnl                10011  
+    -58368ms  DxgKrnl                10011  
+    -58368ms  DxgKrnl                10011  
+    -58366ms  DxgKrnl                10011  
+    -58366ms  DxgKrnl                10011  
+    -58250ms  DxgKrnl                10011  
+    -58250ms  DxgKrnl                10011  
+    -58250ms  DxgKrnl                10011  
+    -58250ms  DxgKrnl                10011  
+    -58250ms  DxgKrnl                10011  
+    -58249ms  DxgKrnl                10011  
+    -58249ms  DxgKrnl                10011  
+    -58249ms  DxgKrnl                10011  
+    -58249ms  DxgKrnl                10011  
+    -58248ms  DxgKrnl                10011  
+    -58248ms  DxgKrnl                10011  
+    -58247ms  DxgKrnl                10011  
+    -58247ms  DxgKrnl                10011  
+    -58247ms  DxgKrnl                10011  
+    -58245ms  DxgKrnl                10011  
+    -58245ms  DxgKrnl                10011  
+    -58242ms  DxgKrnl                10011  
+    -58242ms  DxgKrnl                10011  
+    -58242ms  DxgKrnl                10011  
+    -58241ms  DxgKrnl                10011  
+    -58241ms  DxgKrnl                10011  
+    -58241ms  DxgKrnl                10011  
+    -58241ms  DxgKrnl                10011  
+    -58241ms  DxgKrnl                10011  
+    -58241ms  DxgKrnl                10011  
+    -58228ms  DxgKrnl                10011  
+    -58228ms  DxgKrnl                10011  
+    -58228ms  DxgKrnl                10011  
+    -58228ms  DxgKrnl                10011  
+    -58224ms  DxgKrnl                10011  
+    -58224ms  DxgKrnl                10011  
+    -58223ms  DxgKrnl                10011  
+    -58222ms  DxgKrnl                10011  
+    -58222ms  DxgKrnl                10011  
+    -58222ms  DxgKrnl                10011  
+    -58222ms  DxgKrnl                10011  
+    -58222ms  DxgKrnl                10011  
+    -58220ms  DxgKrnl                10011  
+    -58220ms  DxgKrnl                10011  
+    -58210ms  DxgKrnl                10011  
+    -58210ms  DxgKrnl                10011  
+    -58194ms  DxgKrnl                10011  
+    -58193ms  DxgKrnl                10011  
+    -55144ms  DxgKrnl                10011  
+    -55032ms  DxgKrnl                10011  
+    -54914ms  Kernel-PnP               220  Begin querying bus relations for device PCI\VEN_1002&DEV_7550&SUBSYS_E4891DA2&REV_C0\6&8916a45&0&00000009
+    -54913ms  DxgKrnl                10011  
+    -54913ms  DxgKrnl                10011  
+    -54913ms  DxgKrnl                10011  
+    -54913ms  DxgKrnl                10011  
+    -54912ms  DxgKrnl                10011  
+    -54912ms  DxgKrnl                10011  
+    -54910ms  DxgKrnl                10011  
+    -54910ms  DxgKrnl                10011  
+    -54909ms  DxgKrnl                10011  
+    -54909ms  DxgKrnl                10011  
+    -54906ms  Kernel-PnP               222  End querying bus relations for device PCI\VEN_1002&DEV_7550&SUBSYS_E4891DA2&REV_C0\6&8916a45&0&00000009
+    -54906ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDCP&7&16b8ddb4&0
+    -54906ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDCP&7&16b8ddb4&0
+    -54906ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDFDANS&7&16b8ddb4&0
+    -54906ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDFDANS&7&16b8ddb4&0
+    -54906ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDOCL&7&16b8ddb4&0
+    -54906ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDOCL&7&16b8ddb4&0
+    -54906ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDOGL&7&16b8ddb4&0
+    -54906ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDOGL&7&16b8ddb4&0
+    -54906ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDVLK&7&16b8ddb4&0
+    -54906ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDVLK&7&16b8ddb4&0
+    -54906ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDWIN&7&16b8ddb4&0
+    -54906ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDWIN&7&16b8ddb4&0
+    -54906ms  Kernel-PnP               220  Begin querying bus relations for device DISPLAY\BBC0104\7&16b8ddb4&0&UID265
+    -54906ms  Kernel-PnP               222  End querying bus relations for device DISPLAY\BBC0104\7&16b8ddb4&0&UID265
+    -54906ms  Kernel-PnP               220  Begin querying bus relations for device DISPLAY\SAM79DF\7&16b8ddb4&0&UID256
+    -54906ms  Kernel-PnP               222  End querying bus relations for device DISPLAY\SAM79DF\7&16b8ddb4&0&UID256
+    -54901ms  DxgKrnl                10011  
+    -54901ms  DxgKrnl                10011  
+    -54901ms  DxgKrnl                10011  
+    -54901ms  DxgKrnl                10011  
+    -54901ms  DxgKrnl                10011  
+    -54897ms  DxgKrnl                10011  
+    -54896ms  DxgKrnl                10011  
+    -54896ms  Kernel-PnP               808  End device add, status (STATUS_SUCCESS)
+    -54896ms  Kernel-PnP               220  Begin querying bus relations for device DISPLAY\SAM7B0C\7&16b8ddb4&0&UID260
+    -54896ms  Kernel-PnP               222  End querying bus relations for device DISPLAY\SAM7B0C\7&16b8ddb4&0&UID260
+    -54895ms  DxgKrnl                10011  
+    -54875ms  DxgKrnl                10011  
+    -54875ms  DxgKrnl                10011  
+    -54875ms  DxgKrnl                10011  
+    -54874ms  DxgKrnl                10011  
+    -54873ms  DxgKrnl                10011  
+    -54873ms  DxgKrnl                10011  
+    -54873ms  DxgKrnl                10011  
+    -54873ms  DxgKrnl                10011  
+    -54873ms  DxgKrnl                10011  
+    -54873ms  DxgKrnl                10011  
+    -54873ms  DxgKrnl                10011  
+    -54873ms  DxgKrnl                10011  
+    -54873ms  DxgKrnl                10011  
+    -54871ms  DxgKrnl                10011  
+    -54871ms  DxgKrnl                10011  
+    -54864ms  DxgKrnl                10011  
+    -54864ms  DxgKrnl                10011  
+    -54843ms  DxgKrnl                10011  
+    -54842ms  DxgKrnl                10011  
+    -54841ms  DxgKrnl                10011  
+    -54841ms  DxgKrnl                10011  
+    -54841ms  DxgKrnl                10011  
+    -54840ms  DxgKrnl                10011  
+    -54840ms  DxgKrnl                10011  
+    -54840ms  DxgKrnl                10011  
+    -54840ms  DxgKrnl                10011  
+    -54840ms  DxgKrnl                10011  
+    -54840ms  DxgKrnl                10011  
+    -54840ms  DxgKrnl                10011  
+    -54834ms  DxgKrnl                10011  
+    -54834ms  DxgKrnl                10011  
+    -54814ms  DxgKrnl                10011  
+    -54814ms  DxgKrnl                10011  
+    -54814ms  DxgKrnl                10011  
+    -54814ms  DxgKrnl                10011  
+    -54814ms  DxgKrnl                10011  
+    -54809ms  DxgKrnl                10011  
+    -54809ms  DxgKrnl                10011  
+    -54807ms  DxgKrnl                10011  
+    -54806ms  DxgKrnl                10011  
+    -54806ms  DxgKrnl                10011  
+    -54806ms  DxgKrnl                10011  
+    -54806ms  DxgKrnl                10011  
+    -54806ms  DxgKrnl                10011  
+    -54806ms  DxgKrnl                10011  
+    -54806ms  DxgKrnl                10011  
+    -54806ms  DxgKrnl                10011  
+    -54806ms  DxgKrnl                10011  
+    -54806ms  DxgKrnl                10011  
+    -54801ms  DxgKrnl                10011  
+    -54800ms  DxgKrnl                10011  
+    -54794ms  DxgKrnl                10011  
+    -54794ms  DxgKrnl                10011  
+    -54776ms  DxgKrnl                10011  
+    -54775ms  DxgKrnl                10011  
+    -54775ms  DxgKrnl                10011  
+    -54775ms  DxgKrnl                10011  
+    -54775ms  DxgKrnl                10011  
+    -54775ms  DxgKrnl                10011  
+    -54774ms  DxgKrnl                10011  
+    -54774ms  DxgKrnl                10011  
+    -54774ms  DxgKrnl                10011  
+    -54774ms  DxgKrnl                10011  
+    -54774ms  DxgKrnl                10011  
+    -54774ms  DxgKrnl                10011  
+    -54774ms  DxgKrnl                10011  
+    -54772ms  DxgKrnl                10011  
+    -54772ms  DxgKrnl                10011  
+    -54772ms  DxgKrnl                10011  
+    -54772ms  DxgKrnl                10011  
+    -54770ms  DxgKrnl                10011  
+    -54769ms  DxgKrnl                10011  
+    -54769ms  DxgKrnl                10011  
+    -54769ms  DxgKrnl                10011  
+    -54769ms  DxgKrnl                10011  
+    -54769ms  DxgKrnl                10011  
+    -54768ms  DxgKrnl                10011  
+    -54768ms  DxgKrnl                10011  
+    -54759ms  DxgKrnl                10011  
+    -54759ms  DxgKrnl                10011  
+    -54759ms  DxgKrnl                10011  
+    -54759ms  DxgKrnl                10011  
+    -54759ms  DxgKrnl                10011  
+    -54756ms  DxgKrnl                10011  
+    -54755ms  DxgKrnl                10011  
+    -54755ms  DxgKrnl                10011  
+    -54755ms  DxgKrnl                10011  
+    -54754ms  DxgKrnl                10011  
+    -54754ms  DxgKrnl                10011  
+    -54754ms  DxgKrnl                10011  
+    -54754ms  DxgKrnl                10011  
+    -54752ms  DxgKrnl                10011  
+    -54752ms  DxgKrnl                10011  
+    -54621ms  DxgKrnl                10011  
+    -54621ms  DxgKrnl                10011  
+    -54613ms  DxgKrnl                10011  
+    -54613ms  DxgKrnl                10011  
+    -52882ms  DxgKrnl                10011  
+    -52882ms  DxgKrnl                10011  
+    -52882ms  DxgKrnl                10011  
+    -52881ms  DxgKrnl                10011  
+    -52881ms  DxgKrnl                10011  
+    -52881ms  DxgKrnl                10011  
+    -52881ms  DxgKrnl                10011  
+    -52881ms  DxgKrnl                10011  
+       -39ms  Kernel-PnP               220  Begin querying bus relations for device PCI\VEN_1002&DEV_7550&SUBSYS_E4891DA2&REV_C0\6&8916a45&0&00000009
+       -39ms  DxgKrnl                10011  
+         0ms  DxgKrnl                10011  
+         0ms  Kernel-PnP               222  End querying bus relations for device PCI\VEN_1002&DEV_7550&SUBSYS_E4891DA2&REV_C0\6&8916a45&0&00000009
+         0ms  DxgKrnl                10011  
+         0ms  DxgKrnl                10011  
+         0ms  Kernel-PnP              1010  버스에 누락 된 것으로 보고 된 장치 DISPLAY\SAM7B0C\7&16b8ddb4&0&UID260이 (가) 제거 되었습니다. 제거 된 장치 수 개수: 1
+         0ms  DxgKrnl                10011  
+         0ms  DxgKrnl                10011  
+        +1ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDCP&7&16b8ddb4&0
+        +1ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDCP&7&16b8ddb4&0
+        +1ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDFDANS&7&16b8ddb4&0
+        +1ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDFDANS&7&16b8ddb4&0
+        +1ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDOCL&7&16b8ddb4&0
+        +1ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDOCL&7&16b8ddb4&0
+        +1ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDOGL&7&16b8ddb4&0
+        +1ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDOGL&7&16b8ddb4&0
+        +1ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDVLK&7&16b8ddb4&0
+        +1ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDVLK&7&16b8ddb4&0
+        +1ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDWIN&7&16b8ddb4&0
+        +1ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDWIN&7&16b8ddb4&0
+        +1ms  Kernel-PnP               220  Begin querying bus relations for device DISPLAY\BBC0104\7&16b8ddb4&0&UID265
+        +1ms  Kernel-PnP               222  End querying bus relations for device DISPLAY\BBC0104\7&16b8ddb4&0&UID265
+        +1ms  Kernel-PnP               220  Begin querying bus relations for device DISPLAY\SAM79DF\7&16b8ddb4&0&UID256
+        +1ms  Kernel-PnP               222  End querying bus relations for device DISPLAY\SAM79DF\7&16b8ddb4&0&UID256
+        +1ms  DxgKrnl                10011  
+        +1ms  DxgKrnl                10011  
+        +2ms  Kernel-PnP               808  End device add, status (STATUS_SUCCESS)
+        +2ms  Kernel-PnP               220  Begin querying bus relations for device DISPLAY\Default_Monitor\7&16b8ddb4&0&UID260
+        +2ms  Kernel-PnP               222  End querying bus relations for device DISPLAY\Default_Monitor\7&16b8ddb4&0&UID260
+        +3ms  DxgKrnl                10011  
+        +7ms  DxgKrnl                10011  
+        +7ms  DxgKrnl                10011  
+       +16ms  DxgKrnl                10011  
+       +16ms  DxgKrnl                10011  
+       +16ms  DxgKrnl                10011  
+       +16ms  DxgKrnl                10011  
+       +16ms  DxgKrnl                10011  
+       +19ms  DxgKrnl                10011  
+       +20ms  DxgKrnl                10011  
+      +101ms  DxgKrnl                10011  
+      +101ms  DxgKrnl                10011  
+      +101ms  DxgKrnl                10011  
+      +103ms  DxgKrnl                10011  
+      +103ms  DxgKrnl                10011  
+      +103ms  DxgKrnl                10011  
+      +103ms  DxgKrnl                10011  
+      +103ms  DxgKrnl                10011  
+      +103ms  DxgKrnl                10011  
+      +103ms  DxgKrnl                10011  
+      +103ms  DxgKrnl                10011  
+      +103ms  DxgKrnl                10011  
+      +103ms  DxgKrnl                10011  
+      +104ms  DxgKrnl                10011  
+      +104ms  DxgKrnl                10011  
+      +104ms  DxgKrnl                10011  
+      +104ms  DxgKrnl                10011  
+      +106ms  DxgKrnl                10011  
+      +106ms  DxgKrnl                10011  
+      +106ms  DxgKrnl                10011  
+      +106ms  DxgKrnl                10011  
+      +106ms  DxgKrnl                10011  
+      +107ms  DxgKrnl                10011  
+      +107ms  DxgKrnl                10011  
+      +107ms  DxgKrnl                10011  
+      +130ms  DxgKrnl                10011  
+      +130ms  DxgKrnl                10011  
+      +130ms  DxgKrnl                10011  
+      +130ms  DxgKrnl                10011  
+      +130ms  DxgKrnl                10011  
+      +130ms  DxgKrnl                10011  
+      +130ms  DxgKrnl                10011  
+      +130ms  DxgKrnl                10011  
+      +130ms  DxgKrnl                10011  
+      +130ms  DxgKrnl                10011  
+      +130ms  DxgKrnl                10011  
+      +130ms  DxgKrnl                10011  
+      +131ms  DxgKrnl                10011  
+      +131ms  DxgKrnl                10011  
+      +135ms  DxgKrnl                10011  
+      +136ms  DxgKrnl                10011  
+      +138ms  DxgKrnl                10011  
+      +138ms  DxgKrnl                10011  
+      +143ms  DxgKrnl                10011  
+      +143ms  DxgKrnl                10011  
+      +144ms  DxgKrnl                10011  
+      +144ms  DxgKrnl                10011  
+      +184ms  Kernel-PnP               220  Begin querying bus relations for device PCI\VEN_1002&DEV_7550&SUBSYS_E4891DA2&REV_C0\6&8916a45&0&00000009
+      +227ms  Kernel-PnP               222  End querying bus relations for device PCI\VEN_1002&DEV_7550&SUBSYS_E4891DA2&REV_C0\6&8916a45&0&00000009
+      +227ms  Kernel-PnP              1010  버스에 누락 된 것으로 보고 된 장치 DISPLAY\Default_Monitor\7&16b8ddb4&0&UID260이 (가) 제거 되었습니다. 제거 된 장치 수 개수: 1
+      +228ms  DxgKrnl                10011  
+      +228ms  DxgKrnl                10011  
+      +228ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDCP&7&16b8ddb4&0
+      +228ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDCP&7&16b8ddb4&0
+      +228ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDFDANS&7&16b8ddb4&0
+      +228ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDFDANS&7&16b8ddb4&0
+      +228ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDOCL&7&16b8ddb4&0
+      +228ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDOCL&7&16b8ddb4&0
+      +228ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDOGL&7&16b8ddb4&0
+      +228ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDOGL&7&16b8ddb4&0
+      +228ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDVLK&7&16b8ddb4&0
+      +228ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDVLK&7&16b8ddb4&0
+      +228ms  Kernel-PnP               220  Begin querying bus relations for device SWD\DRIVERENUM\AMDWIN&7&16b8ddb4&0
+      +228ms  Kernel-PnP               222  End querying bus relations for device SWD\DRIVERENUM\AMDWIN&7&16b8ddb4&0
+      +228ms  Kernel-PnP               220  Begin querying bus relations for device DISPLAY\BBC0104\7&16b8ddb4&0&UID265
+      +228ms  Kernel-PnP               222  End querying bus relations for device DISPLAY\BBC0104\7&16b8ddb4&0&UID265
+      +228ms  Kernel-PnP               220  Begin querying bus relations for device DISPLAY\SAM79DF\7&16b8ddb4&0&UID256
+      +228ms  Kernel-PnP               222  End querying bus relations for device DISPLAY\SAM79DF\7&16b8ddb4&0&UID256
+      +239ms  DxgKrnl                10011  
+      +239ms  DxgKrnl                10011  
+      +260ms  DxgKrnl                10011  
+      +260ms  DxgKrnl                10011  
+      +266ms  DxgKrnl                10011  
+      +279ms  DxgKrnl                10011  
+      +279ms  DxgKrnl                10011  
+      +279ms  DxgKrnl                10011  
+      +279ms  DxgKrnl                10011  
+      +279ms  DxgKrnl                10011  
+      +279ms  DxgKrnl                10011  
+      +295ms  DxgKrnl                10011  
+      +305ms  DxgKrnl                10011  
+      +305ms  DxgKrnl                10011  
+      +305ms  DxgKrnl                10011  
+      +306ms  DxgKrnl                10011  
+      +306ms  DxgKrnl                10011  
+      +306ms  DxgKrnl                10011  
+      +306ms  DxgKrnl                10011  
+      +306ms  DxgKrnl                10011  
+      +306ms  DxgKrnl                10011  
+      +308ms  DxgKrnl                10011  
+      +308ms  DxgKrnl                10011  
+      +309ms  DxgKrnl                10011  
+      +309ms  DxgKrnl                10011  
+      +312ms  DxgKrnl                10011  
+      +313ms  DxgKrnl                10011  
+      +349ms  DxgKrnl                10011  
+      +349ms  DxgKrnl                10011  
+      +349ms  DxgKrnl                10011  
+      +349ms  DxgKrnl                10011  
+      +350ms  DxgKrnl                10011  
+      +350ms  DxgKrnl                10011  
+      +351ms  DxgKrnl                10011  
+      +352ms  DxgKrnl                10011  
+      +353ms  DxgKrnl                10011  
+      +353ms  DxgKrnl                10011  
+      +355ms  DxgKrnl                10011  
+      +355ms  DxgKrnl                10011  
+      +416ms  DxgKrnl                10011  
+      +417ms  DxgKrnl                10011  
+      +417ms  DxgKrnl                10011  
+      +418ms  DxgKrnl                10011  
+      +418ms  DxgKrnl                10011  
+      +418ms  DxgKrnl                10011  
+      +418ms  DxgKrnl                10011  
+      +418ms  DxgKrnl                10011  
+      +419ms  DxgKrnl                10011  
+      +419ms  DxgKrnl                10011  
+      +422ms  DxgKrnl                10011  
+      +422ms  DxgKrnl                10011  
+      +429ms  DxgKrnl                10011  
+      +429ms  DxgKrnl                10011  
+      +429ms  DxgKrnl                10011  
+      +430ms  DxgKrnl                10011  
+      +430ms  DxgKrnl                10011  
+      +438ms  DxgKrnl                10011  
+      +438ms  DxgKrnl                10011  
+      +441ms  DxgKrnl                10011  
+      +441ms  DxgKrnl                10011  
+      +441ms  DxgKrnl                10011  
+      +441ms  DxgKrnl                10011  
+      +445ms  DxgKrnl                10011  
+      +445ms  DxgKrnl                10011  
+      +445ms  DxgKrnl                10011  
+      +445ms  DxgKrnl                10011  
+      +447ms  DxgKrnl                10011  
+      +447ms  DxgKrnl                10011  
+      +448ms  DxgKrnl                10011  
+      +449ms  DxgKrnl                10011  
+      +449ms  DxgKrnl                10011  
+      +449ms  DxgKrnl                10011  
+      +450ms  DxgKrnl                10011  
+      +450ms  DxgKrnl                10011  
+      +451ms  DxgKrnl                10011  
+      +451ms  DxgKrnl                10011  
+      +452ms  DxgKrnl                10011  
+      +452ms  DxgKrnl                10011  
+      +454ms  DxgKrnl                10011  
+      +454ms  DxgKrnl                10011  
+
