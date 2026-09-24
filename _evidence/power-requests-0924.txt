@@ -1,0 +1,25 @@
+﻿DISPLAY:
+없습니다.
+
+SYSTEM:
+없습니다.
+
+AWAYMODE:
+없습니다.
+
+실행:
+없습니다.
+
+PERFBOOST:
+없습니다.
+
+ACTIVELOCKSCREEN:
+없습니다.
+
+[SERVICE]
+
+[PROCESS]
+DarkFlash.exe DISPLAY SYSTEM AWAYMODE
+
+[DRIVER]
+
