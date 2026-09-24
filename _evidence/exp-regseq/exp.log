@@ -1,0 +1,31 @@
+﻿2026-09-24 11:08:56 armed — 후보 4개, VIDEOIDLE AC 900 → 60 임시
+2026-09-24 11:08:56 === 후보: Power\DisableD3Requests = 1
+2026-09-24 11:10:36   storm 확인
+2026-09-24 11:10:36   set (이전: 없음)
+2026-09-24 11:10:38   GPU restart: 
+2026-09-24 11:12:35   결과: 파기 — 폭풍 발생 — 1.1분, 사이클 1, GPU D3 진입 2
+2026-09-24 11:12:35   원복: DisableD3Requests = 없음
+2026-09-24 11:12:36   GPU restart: 
+2026-09-24 11:12:56 === 후보: Power\EnableRuntimePowerManagement = 0
+2026-09-24 11:12:56   storm 확인
+2026-09-24 11:12:56   set (이전: 없음)
+2026-09-24 11:12:57   GPU restart: 
+2026-09-24 11:14:33   결과: 파기 — 폭풍 발생 — 0.7분, 사이클 1, GPU D3 진입 1
+2026-09-24 11:14:33   원복: EnableRuntimePowerManagement = 없음
+2026-09-24 11:14:34   GPU restart: 
+2026-09-24 11:14:54 === 후보: Power\DefaultD3TransitionLatencyIdleMonitorOff = 1
+2026-09-24 11:14:54   storm 확인
+2026-09-24 11:14:54   set (이전: 없음)
+2026-09-24 11:14:56   GPU restart: 
+2026-09-24 11:15:53   결과: 파기 — 폭풍 발생 — 0.1분, 사이클 1, GPU D3 진입 0
+2026-09-24 11:15:53   원복: DefaultD3TransitionLatencyIdleMonitorOff = 없음
+2026-09-24 11:15:55   GPU restart: 
+2026-09-24 11:16:15 === 후보: 0000\KMD_RTPMEnabled = 0
+2026-09-24 11:16:15   storm 확인
+2026-09-24 11:16:15   set (이전: 없음)
+2026-09-24 11:16:16   GPU restart: 
+2026-09-24 11:17:40   결과: 파기 — 폭풍 발생 — 0.6분, 사이클 1, GPU D3 진입 2
+2026-09-24 11:17:40   원복: KMD_RTPMEnabled = 없음
+2026-09-24 11:17:41   GPU restart: 
+2026-09-24 11:18:03 VIDEOIDLE AC 복구 900 / monitors: SAM7B0C:OK,BBC0104:OK
+2026-09-24 11:18:03 done — task unregister
