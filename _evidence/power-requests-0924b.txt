@@ -1,0 +1,19 @@
+﻿DISPLAY:
+없습니다.
+
+SYSTEM:
+없습니다.
+
+AWAYMODE:
+없습니다.
+
+실행:
+[PROCESS] \Device\HarddiskVolume3\Users\hans1\AppData\Local\AnthropicClaude\app-2.7032.0\claude.exe
+Electron
+
+PERFBOOST:
+없습니다.
+
+ACTIVELOCKSCREEN:
+없습니다.
+

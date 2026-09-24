@@ -1,0 +1,11 @@
+﻿2026-09-24 10:50:37 armed — 백업 EnableUlps=1 EnableUlps_NA=1 / VIDEOIDLE AC 900
+2026-09-24 11:00:19 storm 확인
+2026-09-24 11:00:19 set EnableUlps=0 EnableUlps_NA=0
+2026-09-24 11:00:20 GPU restart: 
+2026-09-24 11:01:10 관측 시작 (재시작 후 여유 30초)
+2026-09-24 11:01:54 결과: 파기 — 폭풍 발생 — 0.7분 관측, 사이클 1, GPU D3 진입 2
+2026-09-24 11:01:55 restored EnableUlps=1 EnableUlps_NA=1
+2026-09-24 11:01:55 VIDEOIDLE AC 복구 900
+2026-09-24 11:01:56 GPU restart: 
+2026-09-24 11:02:19 monitors: SAM7B0C:OK,BBC0104:OK,SAM79DF:OK
+2026-09-24 11:02:19 done — task unregister
