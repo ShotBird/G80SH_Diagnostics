@@ -1,0 +1,12 @@
+﻿
+TaskName                           State Principal Cmd                                                                                                                              
+--------                           ----- --------- ---                                                                                                                              
+CaseDisplay                      Running hans1     C:\dev\PC\CaseDisplay\CaseDisplay.exe C:\dev\PC\CaseDisplay\casedisplay.py                                                       
+G80SH Daily Rate                Disabled hans1     powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File C:\dev\PC\tools\g80sh-daily-rate.ps1                 
+G80SH ETW Auto                  Disabled SYSTEM    powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File C:\dev\PC\tools\g80sh-etw-auto.ps1                   
+Remote Display Restore (logon)   Running hans1     powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File C:\dev\PC\RemoteDisplaySwitch\Restore.ps1 -Auto      
+Remote Display Restore (unlock)    Ready hans1     powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File C:\dev\PC\RemoteDisplaySwitch\Restore.ps1 -Auto      
+Remote Display Switch            Running hans1     powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File C:\dev\PC\RemoteDisplaySwitch\RemoteDisplaySwitch.ps1
+
+
+

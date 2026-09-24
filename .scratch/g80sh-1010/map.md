@@ -30,6 +30,18 @@
 > 필요하고(HITL), 사용자가 걸어둔 방아쇠(재발하면 그때)가 **09-20 14:33 에 당겨졌다.**
 > 11 을 태우고 나면 3에 남는 것이 없다 — **그 시점에 1이냐 2냐를 정해야 한다.**
 
+## 2026-09-24 마감 상태 — 남은 일: HDMI 시험 1건 후 클로즈 (사용자 결정)
+
+- 제출 자료 충분 → 감시 작업 전부 중지: `G80SH ETW Auto`·`G80SH Daily Rate` **사용 안 함**(작업은 남김).
+  RemoteDisplaySwitch·CaseDisplay 는 기능이라 유지.
+- 완화책(ffmpeg) 미적용, PC 설정은 전부 원래 값. 제출 패키지 `source\G80SH_삼성제출_20260924\`.
+- **09-25 HDMI 시험**: Ultra High Speed 인증 케이블로 G80SH 를 HDMI 연결 →
+  (1) Windows 새로 고침 목록에 240Hz 가 뜨는가(HDMI DSC), (2) 화면 꺼진 동안 폭풍이 나는가.
+  판정은 이벤트 로그(Kernel-PnP 1010)로 — 상시 캡처 없이도 된다.
+  주의: HDMI 에서는 EDID 제품코드·장치 ID 가 달라질 수 있다 → RemoteDisplaySwitch(ID `SAM7B0C` 고정)의 레이아웃 전환이
+  실패할 수 있으니 연결 직후 확인할 것.
+- 결과 기록 후 이 맵 클로즈.
+
 ## Notes
 
 **도메인**: Windows 디스플레이 열거 — Kernel-PnP, CCD API, DxgKrnl ETW, EDID, DP 1.4 DSC,
