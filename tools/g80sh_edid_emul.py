@@ -20,7 +20,7 @@ EMUL = {0: "OFF", 1: "ON_CONNECTED", 2: "ON_DISCONNECTED", 3: "ALWAYS"}
 QUERY = {0: "REAL", 1: "EMULATED", 2: "CURRENT"}
 CONN_TYPE = {0: "UNKNOWN", 1: "VGA", 2: "DVI-D", 3: "DVI-I", 8: "HDMI-A", 9: "HDMI-B",
              10: "DisplayPort", 11: "eDP", 12: "miniDP", 13: "Virtual", 14: "USB-C"}
-LOG = r"C:\dev\PC\_evidence\edid-emul.log"
+LOG = r"C:\dev\1_PC_Setup\_evidence\edid-emul.log"
 
 
 def log(m):

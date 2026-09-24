@@ -3,7 +3,7 @@
 #   powershell -File g80sh-hz.ps1 -Hz 240
 param([Parameter(Mandatory)][int]$Hz)
 $ErrorActionPreference = 'Continue'
-$mmt = 'C:\dev\PC\RemoteDisplaySwitch\MultiMonitorTool.exe'
+$mmt = 'C:\dev\1_PC_Setup\RemoteDisplaySwitch\MultiMonitorTool.exe'
 $tmp = Join-Path $env:TEMP ("mmt_" + [guid]::NewGuid().ToString("N") + ".csv")
 
 & $mmt /scomma $tmp

@@ -11,7 +11,7 @@ param(
 )
 
 $ErrorActionPreference = 'Continue'
-$out = 'C:\dev\PC\_evidence'
+$out = 'C:\dev\1_PC_Setup\_evidence'
 $csv = Join-Path $out "g80sh-dxg-$Tag.csv"
 $agg = Join-Path $out "g80sh-dxg-agg-$Tag.txt"
 $log = Join-Path $out 'auto.log'

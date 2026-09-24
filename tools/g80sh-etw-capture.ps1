@@ -16,7 +16,7 @@ param(
 )
 
 $ErrorActionPreference = 'Continue'
-$out     = 'C:\dev\PC\_evidence'
+$out     = 'C:\dev\1_PC_Setup\_evidence'
 $session = 'G80SH'
 $etl     = Join-Path $out "g80sh-dxg-$Tag.etl"
 $csv     = Join-Path $out "g80sh-dxg-$Tag.csv"

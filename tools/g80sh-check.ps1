@@ -1,6 +1,6 @@
-# 부팅 후 감시 상태 한 번에 확인 — powershell -File C:\dev\PC\tools\g80sh-check.ps1
+# 부팅 후 감시 상태 한 번에 확인 — powershell -File C:\dev\1_PC_Setup\tools\g80sh-check.ps1
 $ErrorActionPreference='SilentlyContinue'
-$out='C:\dev\PC\_evidence'
+$out='C:\dev\1_PC_Setup\_evidence'
 Write-Output ("=== " + (Get-Date -Format 'yyyy-MM-dd HH:mm:ss') + " ===")
 Write-Output ("부팅        : " + (Get-CimInstance Win32_OperatingSystem).LastBootUpTime)
 Write-Output ("감시 프로세스: " + (((Get-Process powershell | Where-Object { $_.SI -eq 0 }).Id) -join ',' ))

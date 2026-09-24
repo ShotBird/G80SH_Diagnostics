@@ -8,11 +8,11 @@
 #   810/811  재열거 큐잉/시작 (= IoInvalidateDeviceRelations 의 흔적)
 #   10011    DxgKrnl StatusChangeNotify (a = Type, b = Source)
 # 출력: _evidence\g80sh-cycle-events.csv  -> tools\g80sh-cycle.py 로 분석
-$out = 'C:\dev\PC\_evidence\g80sh-cycle-events.csv'
+$out = 'C:\dev\1_PC_Setup\_evidence\g80sh-cycle-events.csv'
 $xp = "*[System[(EventID=220 or EventID=222 or EventID=1010 or EventID=10011 or EventID=807 or EventID=810 or EventID=811)]]"
 $rows = New-Object System.Collections.Generic.List[string]
 $rows.Add('file,time,id,a,b')
-Get-ChildItem C:\dev\PC\_evidence\g80sh-*.etl | Where-Object Name -ne 'g80sh-live.etl' | ForEach-Object {
+Get-ChildItem C:\dev\1_PC_Setup\_evidence\g80sh-*.etl | Where-Object Name -ne 'g80sh-live.etl' | ForEach-Object {
     $f = $_.Name
     $ev = Get-WinEvent -Path $_.FullName -Oldest -FilterXPath $xp -ErrorAction SilentlyContinue
     foreach ($e in $ev) {

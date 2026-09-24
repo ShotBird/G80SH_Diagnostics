@@ -73,7 +73,7 @@ GPU는 **AMD Radeon RX 9070 XT**, 드라이버 `32.0.31041.1004` (2026-08-17 설
    훅 스크립트는 **단순하게** 쓸 것 — 복잡하면 중간에 죽어 출력이 안 나온다(09-19에 네 번).
 7. **제출 대장을 갱신한다.** 제출 진술을 바꾸는 결과는 `_evidence\삼성제출_대장.md`에 쌓는다.
 
-**버전 관리**: `C:\dev\PC` = git repo, 원격 `G80SH_Diagnostics` (**private**).
+**버전 관리**: `C:\dev\1_PC_Setup` = git repo, 원격 `G80SH_Diagnostics` (**private**).
 하위 프로젝트 2개와 `_archive`, 활성 `g80sh-live.etl`은 제외.
 
 ## Decisions so far

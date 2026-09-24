@@ -9,7 +9,7 @@
 # 무겁다(150초에 수백 MB). 관리자 권한 — RemoteDisplaySwitch\admin_hook.ps1 에서 & 로 부른다.
 param([int]$Sec = 150, [string]$Tag = (Get-Date -Format 'MMdd-HHmm'))
 $x = 'C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\xperf.exe'
-$d = 'C:\dev\PC\_evidence\deeptest'
+$d = 'C:\dev\1_PC_Setup\_evidence\deeptest'
 New-Item -ItemType Directory -Force $d | Out-Null
 $k   = "$d\$Tag-kernel.etl"
 $usr = "$d\$Tag-user.etl"

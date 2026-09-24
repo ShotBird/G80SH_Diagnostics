@@ -10,7 +10,7 @@ param([int]$Min = 3, [int]$GraceSec = 30)
 $key = 'HKLM:\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000'
 $gpu = 'PCI\VEN_1002&DEV_7550&SUBSYS_E4891DA2&REV_C0\6&8916a45&0&00000009'
 $x   = 'C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\xperf.exe'
-$d   = 'C:\dev\PC\_evidence\exp-ulps0'
+$d   = 'C:\dev\1_PC_Setup\_evidence\exp-ulps0'
 $log = Join-Path $d 'exp.log'
 New-Item -ItemType Directory -Force $d | Out-Null
 function Log($m) { Add-Content -LiteralPath $log -Value ("{0} {1}" -f (Get-Date -Format 'yyyy-MM-dd HH:mm:ss'), $m) -Encoding UTF8 }

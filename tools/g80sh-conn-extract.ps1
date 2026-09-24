@@ -2,8 +2,8 @@
 #   DxgKrnl 1099  DdiQueryConnectionChange Stop  (a = TargetId, b = ConnectionStatus, c = ConnectionChangeId)
 #   Kernel-PnP 220 (GPU 만) / 1010
 # 출력: _evidence\conntest\g80sh-conn-events.csv  -> tools\g80sh-conn.py
-param([string[]]$Etl = @(Get-ChildItem 'C:\dev\PC\_evidence\conntest\g80sh-conn-*.etl', 'C:\dev\PC\_evidence\stacktest\g80sh-xperf-*-dxgbase.etl' -ErrorAction SilentlyContinue | ForEach-Object FullName),
-      [string]$Out = 'C:\dev\PC\_evidence\conntest\g80sh-conn-events.csv')
+param([string[]]$Etl = @(Get-ChildItem 'C:\dev\1_PC_Setup\_evidence\conntest\g80sh-conn-*.etl', 'C:\dev\1_PC_Setup\_evidence\stacktest\g80sh-xperf-*-dxgbase.etl' -ErrorAction SilentlyContinue | ForEach-Object FullName),
+      [string]$Out = 'C:\dev\1_PC_Setup\_evidence\conntest\g80sh-conn-events.csv')
 $out = $Out
 $xp  = "*[System[(EventID=1099 or EventID=220 or EventID=1010)]]"
 $rows = New-Object System.Collections.Generic.List[string]

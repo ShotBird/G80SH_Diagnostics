@@ -17,8 +17,8 @@ param(
 )
 $ErrorActionPreference = 'Continue'
 $py  = 'C:\Users\hans1\AppData\Local\Programs\Python\Python313\python.exe'
-$scr = 'C:\dev\PC\tools\g80sh_edid_emul.py'
-$log = 'C:\dev\PC\_evidence\emul-test.log'
+$scr = 'C:\dev\1_PC_Setup\tools\g80sh_edid_emul.py'
+$log = 'C:\dev\1_PC_Setup\_evidence\emul-test.log'
 
 function Log($m) {
     $line = "{0} {1}" -f (Get-Date -Format 'HH:mm:ss'), $m

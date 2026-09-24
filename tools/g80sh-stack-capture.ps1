@@ -15,7 +15,7 @@
 #   amdkmdag.sys 는 공개 심볼이 없어 주소로만 나온다.
 param([int]$Sec = 100, [string]$Tag = (Get-Date -Format 'MMdd-HHmm'))
 $x   = 'C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\xperf.exe'
-$d   = 'C:\dev\PC\_evidence\stacktest'
+$d   = 'C:\dev\1_PC_Setup\_evidence\stacktest'
 New-Item -ItemType Directory -Force $d | Out-Null
 $usr = "$d\$Tag-user.etl"
 $out = "$d\g80sh-xperf-$Tag.etl"

@@ -12,7 +12,7 @@ param(
 )
 
 $ErrorActionPreference = 'Continue'
-$out     = 'C:\dev\PC\_evidence'
+$out     = 'C:\dev\1_PC_Setup\_evidence'
 $log     = Join-Path $out 'auto.log'
 $session = 'G80SH'
 $dev     = 'SAM7B0C'
@@ -67,7 +67,7 @@ while ($true) {
         Move-Item -LiteralPath $etl -Destination $keep -Force -ErrorAction SilentlyContinue
         if (Test-Path $keep) {
             Log ("etl kept {0} ({1:N0} bytes)" -f (Split-Path $keep -Leaf), (Get-Item $keep).Length)
-            & 'C:\dev\PC\tools\g80sh-etw-decode.ps1' -Etl $keep -Tag $tag
+            & 'C:\dev\1_PC_Setup\tools\g80sh-etw-decode.ps1' -Etl $keep -Tag $tag
         } else { Log "MOVE FAILED - no etl" }
 
         if ($Captures -gt 0 -and $done -ge $Captures) { Log "auto done ($done)"; break }

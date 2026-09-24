@@ -18,7 +18,7 @@ $cands = @(
     @{ Path = $amd; Name = 'KMD_RTPMEnabled';                          Value = 0 }
 )
 $x   = 'C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\xperf.exe'
-$d   = 'C:\dev\PC\_evidence\exp-regseq'
+$d   = 'C:\dev\1_PC_Setup\_evidence\exp-regseq'
 $log = Join-Path $d 'exp.log'
 New-Item -ItemType Directory -Force $d | Out-Null
 function Log($m) { Add-Content -LiteralPath $log -Value ("{0} {1}" -f (Get-Date -Format 'yyyy-MM-dd HH:mm:ss'), $m) -Encoding UTF8 }

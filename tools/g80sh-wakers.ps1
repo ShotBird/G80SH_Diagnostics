@@ -17,7 +17,7 @@ foreach ($e in $d0) {
     $rel = [int64](($e.TimeCreated - $t0).TotalMilliseconds * 1000)
     $f = Join-Path $tmp "w$i.txt"
     & $x -i $Etl -o $f -symbols -a dumper -range ($rel - 400000) ($rel + 20000) 2>&1 | Out-Null
-    $r = & python 'C:\dev\PC\tools\g80sh-wakers.py' $f
+    $r = & python 'C:\dev\1_PC_Setup\tools\g80sh-wakers.py' $f
     $who = if ($r) { ($r | ForEach-Object { ($_ -split "`t")[2] + ' ' + ($_ -split "`t")[3] }) -join ' / ' } else { '(프로그램 경로 없음 — 커널/드라이버 자체)' }
     "{0,3}  {1:HH:mm:ss.fff}  {2}" -f $i, $e.TimeCreated, $who
     Remove-Item $f -ErrorAction SilentlyContinue

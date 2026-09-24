@@ -22,8 +22,8 @@ Blocked by: —
 
 | 항목 | 확인 방법 | 결과 |
 |---|---|---|
-| `C:\dev\PC\tools\g80sh-etw-capture.ps1` | `Test-Path` | 있음 |
-| `C:\dev\PC\tools\g80sh-etw-auto.ps1` | `Test-Path` | 있음 |
+| `C:\dev\1_PC_Setup\tools\g80sh-etw-capture.ps1` | `Test-Path` | 있음 |
+| `C:\dev\1_PC_Setup\tools\g80sh-etw-auto.ps1` | `Test-Path` | 있음 |
 | 작업 `G80SH ETW Auto` | `schtasks /create` rc=0, `/query` rc=0 | 등록됨 (SYSTEM / HIGHEST / onstart) |
 | 상주 프로세스 | `Get-Process powershell` | **PID 8784, 세션 0** |
 | `_evidence\auto.log` | 내용 확인 | `16:41:08 auto armed (captures=6 cool=40m)` |

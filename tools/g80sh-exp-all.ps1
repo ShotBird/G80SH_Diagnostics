@@ -8,7 +8,7 @@
 # 사용자 세션·관리자 권한 임시 작업 'G80SH Exp All' (끝나면 스스로 지움). 사슬 검증용 — 해결책이 아니다.
 param([int]$Min = 30)
 $x   = 'C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\xperf.exe'
-$d   = 'C:\dev\PC\_evidence\exp-all'
+$d   = 'C:\dev\1_PC_Setup\_evidence\exp-all'
 $log = Join-Path $d 'exp.log'
 New-Item -ItemType Directory -Force $d | Out-Null
 function Log($m) { Add-Content -LiteralPath $log -Value ("{0} {1}" -f (Get-Date -Format 'yyyy-MM-dd HH:mm:ss'), $m) -Encoding UTF8 }
@@ -42,7 +42,7 @@ for ($i = 0; $i -lt $Min; $i++) {
 & $x -stop G80SHExp 2>&1 | Out-Null
 Log ("capture stop {0:N0} bytes" -f (Get-Item $etl -ErrorAction SilentlyContinue).Length)
 
-& 'C:\dev\PC\tools\g80sh-deep-capture.ps1' -Sec 180 -Tag allstop
+& 'C:\dev\1_PC_Setup\tools\g80sh-deep-capture.ps1' -Sec 180 -Tag allstop
 Log 'deep census (180s) done'
 
 foreach ($s in $services) { Start-Service -Name $s -ErrorAction SilentlyContinue }

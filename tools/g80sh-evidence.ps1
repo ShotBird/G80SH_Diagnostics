@@ -3,7 +3,7 @@
 # 마지막 수집 시각을 state 파일에 남기고, 그 이후의 장치 제거 이벤트만 센다.
 # 2026-09-26 이후에는 스스로 작업을 지운다 (삼성 검토 기간 대비용).
 
-$dir   = 'C:\dev\PC\_evidence'
+$dir   = 'C:\dev\1_PC_Setup\_evidence'
 $log   = Join-Path $dir 'g80sh-evidence.log'
 $state = Join-Path $dir 'last-run.txt'
 New-Item -ItemType Directory -Force $dir | Out-Null

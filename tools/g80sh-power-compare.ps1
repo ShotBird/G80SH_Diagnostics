@@ -6,7 +6,7 @@
 #   RX 9070 XT GPU Package W, CPU Package W 를 읽는다. 구간별 평균·사이클 수를 낸다. 끝나면 화면 꺼짐 시간을 되돌린다.
 # 한계: LHM 조회 자체가 GPU 를 깨우는 쪽 중 하나다(세 구간 공통). 벽 콘센트 전력이 아니라 센서 값이다.
 param([int]$B = 5, [int]$A = 5, [int]$B2 = 3)
-$d   = 'C:\dev\PC\_evidence\power-compare'
+$d   = 'C:\dev\1_PC_Setup\_evidence\power-compare'
 New-Item -ItemType Directory -Force $d | Out-Null
 $csv = Join-Path $d ("power-{0}.csv" -f (Get-Date -Format 'MMdd-HHmm'))
 $log = Join-Path $d 'power.log'

@@ -12,7 +12,7 @@ param(
 )
 $ErrorActionPreference = 'Continue'
 $x   = 'C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\xperf.exe'
-$d   = 'C:\dev\PC\_evidence\conntest'
+$d   = 'C:\dev\1_PC_Setup\_evidence\conntest'
 $log = Join-Path $d 'conn-capture.log'
 $dev = 'SAM7B0C'
 New-Item -ItemType Directory -Force $d | Out-Null

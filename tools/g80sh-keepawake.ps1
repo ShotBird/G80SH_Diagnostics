@@ -43,5 +43,5 @@ while ($true) {
     Start-Sleep -Seconds $PollSec
 }
 # 등록 예시 (사용자가 결정한 뒤에만):
-#   $a = New-ScheduledTaskAction -Execute powershell.exe -Argument '-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File C:\dev\PC\tools\g80sh-keepawake.ps1'
+#   $a = New-ScheduledTaskAction -Execute powershell.exe -Argument '-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File C:\dev\1_PC_Setup\tools\g80sh-keepawake.ps1'
 #   Register-ScheduledTask 'G80SH Keepawake' -Action $a -Trigger (New-ScheduledTaskTrigger -AtLogOn -User $env:USERNAME)

@@ -8,7 +8,7 @@
 #       → 평소 구성 복구 → 감시자 재시작 → VIDEOIDLE 복구.
 # 사용자 세션·관리자 권한 임시 작업 'G80SH Exp Detach'. 사슬 검증용 시험이다(상시규칙 1).
 param([int]$Base = 3, [int]$Min = 3)
-. 'C:\dev\PC\RemoteDisplaySwitch\SwitchLib.ps1'
+. 'C:\dev\1_PC_Setup\RemoteDisplaySwitch\SwitchLib.ps1'
 Add-Type @"
 using System; using System.Runtime.InteropServices;
 public static class ExpInput {
@@ -27,7 +27,7 @@ public static class ExpInput {
 }
 "@
 $x   = 'C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\xperf.exe'
-$d   = 'C:\dev\PC\_evidence\exp-detach'
+$d   = 'C:\dev\1_PC_Setup\_evidence\exp-detach'
 $log = Join-Path $d 'exp.log'
 New-Item -ItemType Directory -Force $d | Out-Null
 function Log($m) { Add-Content -LiteralPath $log -Value ("{0} {1}" -f (Get-Date -Format 'yyyy-MM-dd HH:mm:ss'), $m) -Encoding UTF8 }

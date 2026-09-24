@@ -1,5 +1,5 @@
 # g80sh-exp-analyze.ps1 — 티켓 20. 시험 구간 ETL 마다 GPU D3 진입·전 포트 재감지·Q1 과 1010 사이클을 센다.
-param([string]$Dir = 'C:\dev\PC\_evidence\exp-trcc')
+param([string]$Dir = 'C:\dev\1_PC_Setup\_evidence\exp-trcc')
 $xp = "*[System[(EventID=154 or EventID=1099)]]"
 foreach ($f in Get-ChildItem $Dir -Filter 'g80sh-exp-*.etl' | Sort-Object Name) {
     $ev = @(Get-WinEvent -Path $f.FullName -Oldest -FilterXPath $xp -ErrorAction SilentlyContinue | Where-Object ProviderName -like '*DxgKrnl*')
